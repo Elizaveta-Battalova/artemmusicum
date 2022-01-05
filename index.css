@@ -1,9 +1,16 @@
 * {
   margin: 0;
 }
+body{
+  background-image: url("conductor.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Playfair Display', serif;
+}
 header {
-  background: linear-gradient(90.26deg, #7d604b 0.23%, #251000 99.8%);
-  margin-bottom: 100px;
+  background-color: rgb(27, 26, 26);
+  position: fixed;
+  width: 100%;
 }
 .container{
     width: 1400px;
@@ -23,23 +30,30 @@ header {
 .logo-text{
     text-align: center;
 }
-.logo-text h1 {
-  color: rgba(241, 205, 179, 1);
+h1{
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 10px;
+  font-weight: 400;
 }
 .logo-text p {
-  color: rgba(205, 205, 205, 1);
-  font-size: 20px;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 6.5px;
 }
 .logo-block {
   display: flex;
   flex-direction: row;
 }
 a {
-  color: rgba(205, 205, 205, 1);
+  color: white;
   text-decoration: none;
 }
 a:hover{
-    color: white;
+    color: rgb(129, 129, 129);
+    font-size: 25px;
 }
 nav {
   height: 150px;
@@ -52,23 +66,19 @@ nav {
 .logo {
   width: 110px;
 }
-h1 {
-  font-size: 60px;
-  color: rgba(255, 255, 255, 1);
-  display: flex;
-  justify-content: center;
-}
 button{
-    background-color: #F1CDB3;
-    border-radius: 15px;
-    width: 100px;
-    height: 40px;
+  background-color: rgb(27, 26, 26);
+  color: rgba(205, 205, 205, 1);
+    width: 130px;
+    height: 50px;
     cursor: pointer;
+    margin-bottom: 50px;
+    font-size: 20px;
 }
 button:hover{
-    background-color: rgba(253, 220, 196, 1);
+    background-color: rgb(88, 88, 88);
 }
-.intro{
+main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -76,28 +86,19 @@ button:hover{
 
 .music-travel{
     margin-top: 200px;
+    width: 50%;
+    color: white;
 }
 h2{
-    font-size: 50px;
+    font-size: 40px;
     color: rgba(255, 255, 255, 1);
-    margin-bottom: 50px;
+    border-bottom: solid black 1px;
 }
 .music-travel p{
-    color: rgba(205, 205, 205, 1);
     font-size: 20px;
     margin-bottom: 50px;
-}
-.first-block{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-.first-block-text{
-    display: flex;
-    flex-direction: column;
-    color: rgba(84, 84, 84, 1);
-    width: 600px;
+    line-height: 40px;
+    padding-top: 20px;
 }
 h3{
     font-size: 40px;
@@ -106,4 +107,13 @@ h3{
 .first-block-text p{
 font-size: 20px;
 line-height: 35px;
+}
+footer{
+  background-color: rgb(27, 26, 26);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+footer p{
+  padding-top: 10px;
 }
