@@ -43,10 +43,6 @@ h1{
   font-size: 15px;
   letter-spacing: 6.5px;
 }
-.logo-block {
-  display: flex;
-  flex-direction: row;
-}
 a {
   color: white;
   text-decoration: none;
