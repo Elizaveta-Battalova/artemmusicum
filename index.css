@@ -112,8 +112,6 @@ h3{
   align-items: center;
   justify-content: space-around;
   background-color: rgb(54, 37, 15);
-  width: 400px;
-  height: 400px;
   margin-bottom: 100px;
 }
 .text{
@@ -130,30 +128,35 @@ button{
   height: 40px;
   background-color: white;
   border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 button:hover{
   width:160px ;
   height:50px ;
   border-radius: 20px;
 }
-/* .aboutUs{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+.aboutUs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .aboutUs div{
   display: flex;
   flex-direction: row;
-  height: 500px;
-  padding-top: 100px;
-  width: 50%;
-} */
+}
 .aboutUs h2{
   color: black;
   font-size: 50px;
 }
 .aboutUs p{
   font-size: 20px;
+}
+.we-are{
+  width: 30%;
+}
+.what-we-do{
+  width: 50%;
 }
 footer{
   background-color: rgb(27, 26, 26);
