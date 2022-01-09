@@ -80,9 +80,8 @@ main{
     flex-direction: row;
     background-image: url("conductor.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 800px;
-    background-size: 2000px;
 }
 
 .music-travel{
