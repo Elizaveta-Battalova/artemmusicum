@@ -1,6 +1,9 @@
 * {
   margin: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
 header {
   background-color: rgb(54, 37, 15);
   position: fixed;
@@ -140,6 +143,8 @@ button:hover{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 200px;
 }
 .aboutUs div{
   display: flex;
@@ -151,6 +156,7 @@ button:hover{
 }
 .aboutUs p{
   font-size: 20px;
+  padding-left: 10px;
 }
 .we-are{
   width: 30%;
