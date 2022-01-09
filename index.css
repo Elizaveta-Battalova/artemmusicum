@@ -1,20 +1,25 @@
 * {
   margin: 0;
 }
-body{
-  background-image: url("conductor.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: 'Playfair Display', serif;
-}
 header {
-  background-color: rgb(27, 26, 26);
+  background-color: rgb(54, 37, 15);
   position: fixed;
   width: 100%;
+  opacity: .9;
 }
 .container{
     width: 1400px;
     margin: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+nav {
+  height: 150px;
+  font-size: 20px;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
 }
 .nav-block {
   display: flex;
@@ -30,6 +35,9 @@ header {
 .logo-text{
     text-align: center;
 }
+.logo {
+  width: 110px;
+}
 h1{
   color: white;
   font-size: 50px;
@@ -37,58 +45,49 @@ h1{
   justify-content: center;
   letter-spacing: 10px;
   font-weight: 400;
+  padding-left: 20px;
+  padding-top: 9px;
 }
 .logo-text p {
   color: white;
   font-size: 15px;
   letter-spacing: 6.5px;
 }
+.music-travel-text{
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.music-travel h2{
+  font-size: 50px;
+}
 a {
   color: white;
   text-decoration: none;
 }
 a:hover{
-    color: rgb(129, 129, 129);
     font-size: 25px;
-}
-nav {
-  height: 150px;
-  font-size: 20px;
-  width: 500px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.logo {
-  width: 110px;
-}
-button{
-  background-color: rgb(27, 26, 26);
-  color: rgba(205, 205, 205, 1);
-    width: 130px;
-    height: 50px;
-    cursor: pointer;
-    margin-bottom: 50px;
-    font-size: 20px;
-}
-button:hover{
-    background-color: rgb(88, 88, 88);
 }
 main{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    background-image: url("conductor.jpg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 800px;
+    background-size: 2000px;
 }
 
 .music-travel{
     margin-top: 200px;
-    width: 50%;
     color: white;
 }
 h2{
-    font-size: 40px;
     color: rgba(255, 255, 255, 1);
-    border-bottom: solid black 1px;
+
 }
 .music-travel p{
     font-size: 20px;
@@ -100,15 +99,68 @@ h3{
     font-size: 40px;
     margin-bottom: 50px;
 }
-.first-block-text p{
-font-size: 20px;
-line-height: 35px;
+.block{
+  display: flex;
+  flex-direction: row;
+}
+.poster{
+  margin-top: 100px;
+}
+.poster div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(54, 37, 15);
+  width: 400px;
+  height: 400px;
+  margin-bottom: 100px;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 500px;
+  margin-left: 40px;
+  line-height: 40px;
+  font-weight: 600;
+}
+button{
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  border-radius: 15px;
+}
+button:hover{
+  width:160px ;
+  height:50px ;
+  border-radius: 20px;
+}
+/* .aboutUs{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.aboutUs div{
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  padding-top: 100px;
+  width: 50%;
+} */
+.aboutUs h2{
+  color: black;
+  font-size: 50px;
+}
+.aboutUs p{
+  font-size: 20px;
 }
 footer{
   background-color: rgb(27, 26, 26);
   color: white;
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 footer p{
   padding-top: 10px;
