@@ -1,81 +1,91 @@
 * {
-  margin: 0;
+    margin: 0;
 }
-html{
-  scroll-behavior: smooth;
+
+html {
+    scroll-behavior: smooth;
 }
+
 header {
-  background-color: rgb(54, 37, 15);
-  position: fixed;
-  width: 100%;
-  opacity: .9;
+    background-color: rgb(54, 37, 15);
+    position: fixed;
+    width: 100%;
+    opacity: .9;
 }
-.container{
+
+.container {
     width: 1400px;
     margin: auto;
     font-family: 'Quicksand', sans-serif;
 }
+
 nav {
-  height: 150px;
-  font-size: 20px;
-  width: 500px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: 'Playfair Display', serif;
+    height: 150px;
+    font-size: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
 }
+
 .nav-block {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .logo-block {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-.logo-text{
+
+.logo-text {
     text-align: center;
 }
-.logo {
-  width: 110px;
-}
-h1{
-  color: white;
-  font-size: 50px;
-  display: flex;
-  justify-content: center;
-  letter-spacing: 10px;
-  font-weight: 400;
-  padding-left: 20px;
-  padding-top: 9px;
-}
-.logo-text p {
-  color: white;
-  font-size: 15px;
-  letter-spacing: 6.5px;
-}
-.music-travel-text{
-  padding-top: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
+.logo {
+    width: 110px;
 }
-.music-travel h2{
-  font-size: 50px;
+
+h1 {
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 10px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 9px;
 }
-a {
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
+
+.music-travel {
+    color: white;
+    padding-top: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 350px;
 }
-a:hover{
+
+.music-travel h2 {
+    font-size: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav a:hover {
     font-size: 25px;
 }
-main{
+
+main {
     display: flex;
     flex-direction: row;
     background-image: url("conductor.jpg");
@@ -83,93 +93,99 @@ main{
     background-size: 100%;
 }
 
-.music-travel{
-    margin-top: 200px;
-    color: white;
-}
-h2{
+h2 {
     color: rgba(255, 255, 255, 1);
-
 }
-.music-travel p{
+
+.music-travel p {
     font-size: 20px;
     margin-bottom: 50px;
     line-height: 40px;
     padding-top: 20px;
 }
-h3{
-    font-size: 40px;
-    margin-bottom: 50px;
+
+.posters {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
 }
-.block{
-  display: flex;
-  flex-direction: row;
+
+.card {
+    display: flex;
+    flex-direction: row;
 }
-.poster{
-  margin-top: 100px;
+
+.card div {
+    margin-left: 40px;
 }
-.poster div{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  background-color: rgb(54, 37, 15);
-  margin-bottom: 100px;
+
+.card img {
+    margin-bottom: 40px;
 }
-.text{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 500px;
-  margin-left: 40px;
-  line-height: 40px;
-  font-weight: 600;
+
+.card p {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
-button{
-  width: 150px;
-  height: 40px;
-  background-color: white;
-  border-radius: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+
+h3 {
+    margin-bottom: 40px;
 }
-button:hover{
-  width:160px ;
-  height:50px ;
-  border-radius: 20px;
+
+.card button {
+    background-color: white;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border: 2px black solid;
+    transition: 1s;
 }
-.aboutUs{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 100px;
-  margin-bottom: 200px;
+
+.card button:hover {
+    border: 2px rgb(197, 0, 0) solid;
+    background-color: rgb(197, 0, 0);
 }
-.aboutUs div{
-  display: flex;
-  flex-direction: row;
+
+.aboutUs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 200px;
 }
-.aboutUs h2{
-  color: black;
-  font-size: 50px;
+
+.aboutUs div {
+    display: flex;
+    flex-direction: row;
 }
-.aboutUs p{
-  font-size: 20px;
-  padding-left: 10px;
+
+.aboutUs h2 {
+    color: black;
+    font-size: 50px;
 }
-.we-are{
-  width: 30%;
+
+.aboutUs p {
+    font-size: 20px;
+    padding-left: 10px;
 }
-.what-we-do{
-  width: 50%;
+
+.we-are {
+    width: 30%;
 }
-footer{
-  background-color: rgb(27, 26, 26);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 20px;
+
+.what-we-do {
+    width: 50%;
 }
-footer p{
-  padding-top: 10px;
+
+footer {
+    background-color: rgb(27, 26, 26);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+footer p {
+    padding-top: 10px;
 }
