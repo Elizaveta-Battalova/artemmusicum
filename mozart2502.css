@@ -1,9 +1,6 @@
 * {
     margin: 0;
-}
-
-html {
-    scroll-behavior: smooth;
+    padding: 0;
 }
 
 header {
@@ -11,29 +8,13 @@ header {
     position: fixed;
     width: 100%;
     opacity: .9;
+    margin-bottom: 300px;
 }
 
 .container {
     width: 1400px;
     margin: auto;
     font-family: 'Quicksand', sans-serif;
-}
-
-nav {
-    height: 150px;
-    font-size: 20px;
-    width: 500px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Playfair Display', serif;
-}
-
-.nav-block {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .logo-block {
@@ -61,58 +42,10 @@ h1 {
     padding-top: 9px;
 }
 
-.music-travel {
-    color: white;
-    padding-top: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 350px;
-}
-
-.music-travel h2 {
-    font-size: 50px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-nav a:hover {
-    font-size: 25px;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-    background-image: url("conductor.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-h2 {
-    color: rgba(255, 255, 255, 1);
-}
-
-.music-travel p {
-    font-size: 20px;
-    margin-bottom: 50px;
-    line-height: 40px;
-    padding-top: 20px;
-}
-
-.posters {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-}
-
 .card {
     display: flex;
     flex-direction: row;
+    padding-top: 150px;
 }
 
 .card div {
@@ -157,35 +90,47 @@ h3 {
     background-color: rgb(197, 0, 0);
 }
 
-.aboutUs {
+.card a {
+    font-size: 20px;
+    color: rgb(54, 37, 15);
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: rgb(145, 88, 14);
+}
+
+.programm {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 100px;
-    margin-bottom: 200px;
+    padding-bottom: 40px;
 }
 
-.aboutUs div {
-    display: flex;
-    flex-direction: row;
+.info {
+    width: 40%;
 }
 
-.aboutUs h2 {
-    color: black;
-    font-size: 50px;
+.info p {
+    font-size: 19px;
 }
 
-.aboutUs p {
+h4 {
+    padding-bottom: 15px;
+}
+
+.about-mozart p {
+    padding-bottom: 15px;
     font-size: 20px;
-    padding-left: 10px;
 }
 
-.we-are {
-    width: 30%;
+li {
+    padding-bottom: 10px;
+    font-size: 19px;
 }
 
-.what-we-do {
-    width: 50%;
+.musicians p {
+    font-size: 20px;
 }
 
 footer {
