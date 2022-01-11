@@ -97,7 +97,7 @@ h3 {
 }
 
 .card a:hover {
-    color: rgb(145, 88, 14);
+    color: rgb(233, 132, 0);
 }
 
 .programm {
@@ -122,6 +122,7 @@ h4 {
 .about-mozart p {
     padding-bottom: 15px;
     font-size: 20px;
+    font-style: italic;
 }
 
 li {
