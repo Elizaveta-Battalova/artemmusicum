@@ -210,6 +210,86 @@ h3 {
     width: 50%;
 }
 
+.musichall {
+    background-image: url("./images/musichall.jpg");
+    background-size: cover;
+    height: 600px;
+}
+
+.logoinfo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 250px;
+}
+
+.logoinfo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logoinfo p {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+h4 {
+    font-family: "augustus";
+    font-size: 50px;
+    color: #666464;
+    margin-bottom: 15px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.worktime {
+    text-align: center;
+}
+
+.worktime p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 25px;
+    font-family: "augustus";
+    margin-bottom: 20px;
+}
+
+.phone a {
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.worktime-button {
+    background-color: white;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border: 2px black solid;
+    transition: 1s;
+}
+
+.worktime-button:hover {
+    border: 2px rgb(197, 0, 0) solid;
+    background-color: rgb(197, 0, 0);
+}
+
+.worktime-button a {
+    color: black;
+    text-decoration: none;
+}
+
 footer {
     width: 100%;
     background-color: rgb(27, 26, 26);
