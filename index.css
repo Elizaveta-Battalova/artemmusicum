@@ -354,6 +354,11 @@ footer p {
     .aboutUs h2 {
         font-size: 35px;
     }
+    .musichall {
+        background-image: url("./images/musichall.jpg");
+        background-size: contain;
+        height: 520px;
+    }
 }
 
 @media(max-width:768px) {
