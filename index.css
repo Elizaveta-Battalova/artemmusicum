@@ -134,6 +134,7 @@ h2 {
 .card {
     display: flex;
     flex-direction: row;
+    padding-top: 150px;
 }
 
 .card div {
