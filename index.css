@@ -449,7 +449,6 @@ footer p {
     }
     .r_header {
         all: revert;
-        box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
         position: fixed;
         top: 20px;
         left: 0px;
@@ -619,6 +618,9 @@ footer p {
         width: 350px;
         margin: auto;
         padding: 0;
+    }
+    .main-section {
+        width: 375px;
     }
     .nav-block {
         height: 50px;
