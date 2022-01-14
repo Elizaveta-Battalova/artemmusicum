@@ -562,7 +562,7 @@ footer p {
 
 @media(max-width:425px) {
     .container {
-        width: 400px;
+        width: 425px;
         margin: auto;
         padding: 0;
     }
