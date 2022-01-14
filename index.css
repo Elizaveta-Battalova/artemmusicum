@@ -661,15 +661,71 @@ footer p {
     .logo {
         width: 80px;
     }
+    .we-are {
+        flex-wrap: wrap;
+    }
+    .what-we-do {
+        flex-wrap: wrap;
+    }
     .aboutUs h2 {
         font-size: 35px;
     }
+    .aboutUs p {
+        padding: 0;
+    }
+    .card div {
+        margin-left: 0;
+    }
     .musichall {
         background-image: url("./images/musichall.jpg");
-        background-size: contain;
-        height: 100px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
     }
     .contacts {
         flex-wrap: wrap;
+    }
+    .logoinfo img {
+        width: 100px;
+    }
+    h4 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .contacts {
+        margin-bottom: 50px;
+    }
+    .worktime p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    h5 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .phone a {
+        color: #000;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .worktime-button {
+        width: 100px;
+        height: 30px;
+        border: 1px black solid;
+        transition: 1s;
+    }
+    .worktime-button a {
+        font-size: 10px;
+    }
+    footer {
+        width: 100%;
+        background-color: rgb(27, 26, 26);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    footer p {
+        font-size: 10px;
     }
 }
