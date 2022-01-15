@@ -696,6 +696,18 @@ footer p {
     .card img {
         width: 330px;
     }
+    .music-travel h2 {
+        font-size: 20px;
+        text-shadow: #292512 1px 0 10px;
+    }
+    .music-travel p {
+        font-size: 15px;
+        line-height: 20px;
+        padding-top: 100px;
+        margin-bottom: 150px;
+        width: 300px;
+        text-shadow: #292512 1px 0 10px;
+    }
 }
 
 @media(max-width:375px) {
