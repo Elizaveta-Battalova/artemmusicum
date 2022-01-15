@@ -705,10 +705,7 @@ footer p {
         padding: 0;
     }
     .nav-block {
-        height: 50px;
-    }
-    header {
-        opacity: 1;
+        height: 150px;
     }
     h1 {
         font-size: x-large;
