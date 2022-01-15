@@ -561,7 +561,7 @@ footer p {
 
 @media(max-width:425px) {
     .container {
-        width: 425px;
+        width: 330px;
         margin: auto;
         padding: 0;
     }
@@ -569,15 +569,28 @@ footer p {
         height: 50px;
     }
     h1 {
-        font-size: 25px;
+        font-size: 10px;
         letter-spacing: 5px;
         font-weight: 400;
-        padding-left: 20px;
-        padding-top: 9px;
+        padding-left: 10px;
+        padding-top: 5px;
         font-family: "augustus";
+    }
+    .r_header {
+        all: revert;
+        position: fixed;
+        left: 0px;
+        right: 20px;
+        width: 100%;
+        z-index: 3;
+        border: 0px solid white;
+    }
+    .music-travel h2 {
+        font-size: 20px;
     }
     .music-travel {
         padding-top: 200px;
+        text-align: center;
     }
     .music-travel h2 {
         font-size: 30px;
@@ -596,20 +609,83 @@ footer p {
         font-size: 15px;
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .music-travel h2 {
         font-size: 30px;
     }
     .logo {
-        width: 80px;
+        width: 40px;
+    }
+    .we-are {
+        flex-wrap: wrap;
+    }
+    .what-we-do {
+        flex-wrap: wrap;
     }
     .aboutUs h2 {
         font-size: 35px;
     }
+    .aboutUs p {
+        padding: 0;
+    }
+    .card div {
+        margin-left: 0;
+    }
     .musichall {
         background-image: url("./images/musichall.jpg");
-        background-size: contain;
-        height: 520px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+    }
+    .contacts {
+        flex-wrap: wrap;
+    }
+    .logoinfo img {
+        width: 100px;
+    }
+    h4 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .contacts {
+        margin-bottom: 50px;
+    }
+    .worktime p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    h5 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .phone a {
+        color: #000;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .worktime-button {
+        width: 100px;
+        height: 30px;
+        border: 1px black solid;
+        transition: 1s;
+    }
+    .worktime-button a {
+        font-size: 10px;
+    }
+    footer {
+        width: 100%;
+        background-color: rgb(27, 26, 26);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    footer p {
+        font-size: 10px;
+    }
+    .card img {
+        width: 300px;
     }
 }
 
@@ -641,12 +717,6 @@ footer p {
     }
     .music-travel h2 {
         font-size: 20px;
-    }
-    .music-travel {
-        padding-top: 200px;
-    }
-    .music-travel h2 {
-        font-size: 30px;
     }
     .music-travel p {
         font-size: 15px;
