@@ -24,7 +24,7 @@ span {
 }
 
 header {
-    background-color: rgb(54, 37, 15);
+    background-color: #666464;
     position: fixed;
     width: 100%;
     opacity: .9;
@@ -473,10 +473,10 @@ footer p {
     .r_header .menu-icon .navicon {
         background: #f4f4f4;
         display: block;
-        height: 2px;
+        height: 3px;
         position: relative;
         transition: background .2s ease-out;
-        width: 18px;
+        width: 30px;
     }
     .r_header .menu-icon .navicon:before,
     .r_header .menu-icon .navicon:after {
@@ -489,10 +489,10 @@ footer p {
         width: 100%;
     }
     .r_header .menu-icon .navicon:before {
-        top: 5px;
+        top: 7px;
     }
     .r_header .menu-icon .navicon:after {
-        top: -5px;
+        top: -7px;
     }
     .r_header .menu-btn {
         display: none;
@@ -568,24 +568,25 @@ footer p {
     .main-section {
         background-image: url("./images/conductor.jpg");
         background-repeat: no-repeat;
-        height: 400px;
+        height: 600px;
+        background-position: center;
     }
     .nav-block {
-        height: 50px;
+        height: 130px;
     }
     h1 {
-        font-size: 10px;
-        letter-spacing: 5px;
-        font-weight: 400;
-        padding-left: 10px;
-        padding-top: 5px;
+        font-size: x-large;
+        transform: scale(1, 2);
+        letter-spacing: 6px;
+        padding-left: 5px;
+        padding-top: 0;
         font-family: "augustus";
     }
     .r_header {
         all: revert;
         position: fixed;
-        left: 0px;
-        right: 20px;
+        top: 80px;
+        right: 0px;
         width: 100%;
         z-index: 3;
         border: 0px solid white;
@@ -594,7 +595,7 @@ footer p {
         font-size: 20px;
     }
     .music-travel {
-        padding-top: 100px;
+        padding-top: 200px;
         text-align: center;
     }
     .music-travel h2 {
@@ -603,7 +604,7 @@ footer p {
     .music-travel p {
         font-size: 15px;
         line-height: 20px;
-        padding-top: 13px;
+        padding-top: 100px;
         margin-bottom: 150px;
         width: 300px;
     }
@@ -620,7 +621,7 @@ footer p {
         font-size: 30px;
     }
     .logo {
-        width: 40px;
+        width: 60px;
     }
     .we-are {
         flex-wrap: wrap;
@@ -705,6 +706,9 @@ footer p {
     }
     .nav-block {
         height: 50px;
+    }
+    header {
+        opacity: 1;
     }
     h1 {
         font-size: 10px;
