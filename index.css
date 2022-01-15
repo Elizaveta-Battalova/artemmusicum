@@ -559,7 +559,7 @@ footer p {
     }
 }
 
-@media(max-width:425px) {
+@media(max-width:375px) {
     .container {
         width: 330px;
         margin: auto;
