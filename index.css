@@ -559,7 +559,7 @@ footer p {
     }
 }
 
-@media(max-width:375px) {
+@media(max-width:425px) {
     .container {
         width: 330px;
         margin: auto;
@@ -581,6 +581,7 @@ footer p {
         padding-left: 5px;
         padding-top: 0;
         font-family: "augustus";
+        color: red;
     }
     .r_header {
         all: revert;
