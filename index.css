@@ -718,6 +718,7 @@ footer p {
     .r_header {
         all: revert;
         position: fixed;
+        top: 80px;
         left: 0px;
         right: 20px;
         width: 100%;
