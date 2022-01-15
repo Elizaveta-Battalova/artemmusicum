@@ -718,6 +718,7 @@ footer p {
         padding-left: 10px;
         padding-top: 5px;
         font-family: "augustus";
+        color: blue;
     }
     .r_header {
         all: revert;
