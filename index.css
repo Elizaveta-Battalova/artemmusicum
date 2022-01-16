@@ -820,13 +820,13 @@ footer p {
     }
     .we-are {
         flex-wrap: wrap;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
     .what-we-do {
         flex-wrap: wrap;
     }
     .aboutUs {
-        height: 700px;
+        height: 800px;
     }
     .aboutUs h2 {
         font-size: 35px;
