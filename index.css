@@ -114,8 +114,7 @@ main {
     flex: 1 1 auto;
     flex-direction: row;
     background-size: 100%;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translateZ(0px);
     scroll-behavior: smooth;
 }
 
