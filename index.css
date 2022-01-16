@@ -648,10 +648,7 @@ footer p {
         height: 150px;
     }
     .dropdown {
-        padding-top: 100px;
-        z-index: 999;
-        position: fixed;
-        margin-left: 300px;
+        margin-left: 250px;
     }
     h1 {
         font-size: 30px;
