@@ -782,7 +782,7 @@ footer p {
         margin-left: 250px;
     }
     h1 {
-        font-size: 30px;
+        font-size: 28px;
         font-family: "augustus";
         letter-spacing: 0;
         padding-top: 20px;
@@ -815,9 +815,13 @@ footer p {
     }
     .we-are {
         flex-wrap: wrap;
+        margin-bottom: 50px;
     }
     .what-we-do {
         flex-wrap: wrap;
+    }
+    .aboutUs {
+        height: 700px;
     }
     .aboutUs h2 {
         font-size: 35px;
@@ -853,7 +857,7 @@ footer p {
     .phone {
         font-size: large;
     }
-    .phone a {
+    .phone {
         color: #000;
         font-size: x-large;
     }
@@ -865,9 +869,6 @@ footer p {
     }
     .worktime-button a {
         font-size: 10px;
-    }
-    .musichall {
-        margin-top: 100px;
     }
     footer {
         width: 100%;
