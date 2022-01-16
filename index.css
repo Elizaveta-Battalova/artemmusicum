@@ -221,9 +221,8 @@ h3 {
 }
 
 .musichall {
-    background-image: url("./images/musichall.jpg");
-    background-size: cover;
-    height: 600px;
+    width: 100%;
+    margin-top: 100px;
 }
 
 .logoinfo {
@@ -485,6 +484,16 @@ footer p {
         position: fixed;
         margin-left: 300px;
     }
+    .dropdown-menu {
+        width: 200px;
+        background-color: #808080;
+    }
+    .dropdown-item {
+        text-align: center;
+        font-size: x-large;
+        color: white;
+        padding-bottom: 10px;
+    }
     h1 {
         font-size: 30px;
         font-family: "augustus";
@@ -534,10 +543,20 @@ footer p {
         font-size: 35px;
     }
     .aboutUs p {
-        padding: 0;
+        padding-left: 0;
     }
     .box div {
         margin-left: 0;
+    }
+    .box button {
+        width: 130px;
+        height: 30px;
+        border: 1px black solid;
+        transition: 1s;
+        font-size: 10px;
+    }
+    .card-about a {
+        text-decoration: underline;
     }
     .musichall {
         background-image: url("./images/musichall.jpg");
@@ -585,6 +604,9 @@ footer p {
     }
     .worktime-button a {
         font-size: 10px;
+    }
+    .logoinfo {
+        margin-bottom: 100px;
     }
     footer {
         width: 100%;
