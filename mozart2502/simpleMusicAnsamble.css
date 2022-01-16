@@ -122,7 +122,10 @@ footer p {
         display: flex;
         justify-content: center;
     }
-    .simplemusic img {
+    .ensemble-logo {
+        width: 200px;
+    }
+    .img {
         width: 300px;
     }
     nav a {
@@ -164,7 +167,10 @@ footer p {
         display: flex;
         justify-content: center;
     }
-    .simplemusic img {
+    .ensemble-logo {
+        width: 200px;
+    }
+    .img {
         width: 300px;
     }
     h1 {
