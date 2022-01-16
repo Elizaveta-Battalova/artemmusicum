@@ -29,6 +29,7 @@ header {
     position: fixed;
     width: 100%;
     opacity: .9;
+    z-index: 99;
 }
 
 .container {
@@ -100,6 +101,7 @@ nav a {
 
 nav a:hover {
     font-size: 25px;
+    color: white;
 }
 
 .main-section {
@@ -128,21 +130,21 @@ main {
     flex-direction: column;
 }
 
-.card {
+.box {
     display: flex;
     flex-direction: row;
     padding-top: 150px;
 }
 
-.card div {
+.box div {
     margin-left: 40px;
 }
 
-.card img {
+.box img {
     margin-bottom: 40px;
 }
 
-.card p {
+.box p {
     margin-bottom: 15px;
     font-size: 20px;
 }
@@ -171,7 +173,7 @@ h3 {
     font-size: 30px;
 }
 
-.card button {
+.box button {
     background-color: white;
     font-weight: bold;
     width: 150px;
@@ -182,7 +184,7 @@ h3 {
     cursor: pointer;
 }
 
-.card button:hover {
+.box button:hover {
     border: 2px rgb(197, 0, 0) solid;
     background-color: rgb(197, 0, 0);
 }
@@ -279,15 +281,14 @@ h5 {
 
 .phone a {
     color: #000;
-    font-size: 20px;
-    font-weight: 900;
+    font-size: x-large;
     text-decoration: none;
 }
 
 .worktime-button {
     background-color: white;
     font-weight: bold;
-    width: 150px;
+    width: 200px;
     height: 40px;
     border: 2px black solid;
     transition: 1s;
@@ -295,12 +296,15 @@ h5 {
 
 .worktime-button:hover {
     border: 2px rgb(197, 0, 0) solid;
-    background-color: rgb(197, 0, 0);
 }
 
 .worktime-button a {
     color: black;
     text-decoration: none;
+}
+
+.worktime-button a:hover {
+    color: black;
 }
 
 footer {
@@ -316,7 +320,7 @@ footer p {
     padding-top: 10px;
 }
 
-.r_header {
+.dropdown {
     display: none;
 }
 
@@ -354,7 +358,7 @@ footer p {
     .posters {
         width: 80%;
     }
-    .card {
+    .box {
         font-size: 15px;
     }
     .music-travel h2 {
@@ -416,7 +420,7 @@ footer p {
     .posters {
         width: 80%;
     }
-    .card {
+    .box {
         font-size: 10px;
     }
     .music-travel h2 {
@@ -454,115 +458,9 @@ footer p {
     nav a {
         display: none;
     }
-    .r_header {
-        all: revert;
-        position: fixed;
-        top: 20px;
-        left: 0px;
-        right: 0px;
-        width: 100%;
-        z-index: 3;
-        border: 0px solid white;
-    }
-    .r_header .menu {
-        clear: both;
-        max-height: 0;
-        transition: max-height .2s ease-out;
-    }
-    .r_header .menu-icon {
-        cursor: pointer;
-        display: inline-block;
-        float: right;
-        padding: 28px 20px;
-        position: relative;
-        user-select: none;
-    }
-    .r_header .menu-icon .navicon {
-        background: #f4f4f4;
-        display: block;
-        height: 3px;
-        position: relative;
-        transition: background .2s ease-out;
-        width: 30px;
-    }
-    .r_header .menu-icon .navicon:before,
-    .r_header .menu-icon .navicon:after {
-        background: #f4f4f4;
-        content: '';
-        display: block;
-        height: 100%;
-        position: absolute;
-        transition: all .2s ease-out;
-        width: 100%;
-    }
-    .r_header .menu-icon .navicon:before {
-        top: 7px;
-    }
-    .r_header .menu-icon .navicon:after {
-        top: -7px;
-    }
-    .r_header .menu-btn {
-        display: none;
-    }
-    .r_header .dropdown-content {
-        list-style-type: none;
-        display: none;
-        position: absolute;
-        background-color: #f8f8f8;
-        min-width: 160px;
-        top: 58px;
-        right: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        padding: 12px 16px;
-        z-index: 4;
-    }
-    .r_header .dropdown-content ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        overflow: hidden;
-        background-color: #fff;
-        color: #222222;
-        width: 256px;
-    }
-    .r_header .dropdown-content li {
-        width: 300px;
+    .dropdown {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .r_header .dropdown-content li a {
-        display: block;
-        font-size: 14px;
-        line-height: 26.4px;
-        color: rgb(54, 37, 15);
-        border: 0px solid white;
-        padding: 20px 20px;
-        border-right: 1px solid #f4f4f4;
-        text-decoration: none;
-    }
-    .r_header .dropdown-content li:hover {
-        background-color: #f2f2f2;
-    }
-    .r_header .dropdown-content li a:hover {
-        color: #000000;
-    }
-    .r_header .menu-btn:checked~.dropdown-content {
-        display: block;
-    }
-    .r_header .menu-btn:checked~.menu-icon .navicon {
-        background: transparent;
-    }
-    .r_header .menu-btn:checked~.menu-icon .navicon:before {
-        transform: rotate(-45deg);
-    }
-    .r_header .menu-btn:checked~.menu-icon .navicon:after {
-        transform: rotate(45deg);
-    }
-    .r_header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
-    .r_header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
-        top: 0;
+        justify-content: flex-end;
     }
 }
 
@@ -581,21 +479,18 @@ footer p {
     .nav-block {
         height: 150px;
     }
+    .dropdown {
+        padding-top: 100px;
+        z-index: 999;
+        position: fixed;
+        margin-left: 300px;
+    }
     h1 {
         font-size: 30px;
         font-family: "augustus";
         letter-spacing: 0;
-        padding-top: 15px;
+        padding-top: 20px;
         padding-left: 0;
-    }
-    .r_header {
-        all: revert;
-        position: fixed;
-        top: 80px;
-        right: 0px;
-        width: 100%;
-        z-index: 3;
-        border: 0px solid white;
     }
     .music-travel h2 {
         font-size: 20px;
@@ -617,7 +512,7 @@ footer p {
     .posters {
         width: 80%;
     }
-    .card {
+    .box {
         font-size: 15px;
         display: flex;
         flex-direction: column;
@@ -641,7 +536,7 @@ footer p {
     .aboutUs p {
         padding: 0;
     }
-    .card div {
+    .box div {
         margin-left: 0;
     }
     .musichall {
@@ -680,8 +575,7 @@ footer p {
     }
     .phone a {
         color: #000;
-        font-size: large;
-        font-weight: 600;
+        font-size: x-large;
     }
     .worktime-button {
         width: 130px;
@@ -703,7 +597,7 @@ footer p {
     footer p {
         font-size: 10px;
     }
-    .card img {
+    .box img {
         width: 330px;
     }
     .music-travel h2 {
@@ -729,22 +623,18 @@ footer p {
     .nav-block {
         height: 150px;
     }
+    .dropdown {
+        padding-top: 100px;
+        z-index: 999;
+        position: fixed;
+        margin-left: 300px;
+    }
     h1 {
         font-size: 30px;
         font-family: "augustus";
         letter-spacing: 0;
-        padding-top: 15px;
+        padding-top: 20px;
         padding-left: 0;
-    }
-    .r_header {
-        all: revert;
-        position: fixed;
-        top: 90px;
-        left: 0px;
-        right: 20px;
-        width: 100%;
-        z-index: 3;
-        border: 0px solid white;
     }
     .music-travel h2 {
         font-size: 20px;
@@ -765,7 +655,7 @@ footer p {
     .posters {
         width: 80%;
     }
-    .card {
+    .box {
         font-size: 15px;
         display: flex;
         flex-direction: column;
@@ -789,7 +679,7 @@ footer p {
     .aboutUs p {
         padding: 0;
     }
-    .card div {
+    .box div {
         margin-left: 0;
     }
     .musichall {
@@ -825,8 +715,7 @@ footer p {
     }
     .phone a {
         color: #000;
-        font-size: large;
-        font-weight: 600;
+        font-size: x-large;
     }
     .worktime-button {
         width: 100px;
@@ -848,7 +737,7 @@ footer p {
     footer p {
         font-size: 10px;
     }
-    .card img {
+    .box img {
         width: 300px;
     }
 }
@@ -862,22 +751,18 @@ footer p {
     .nav-block {
         height: 150px;
     }
+    .dropdown {
+        padding-top: 100px;
+        z-index: 999;
+        position: fixed;
+        margin-left: 300px;
+    }
     h1 {
         font-size: 30px;
         font-family: "augustus";
         letter-spacing: 0;
-        padding-top: 15px;
+        padding-top: 20px;
         padding-left: 0;
-    }
-    .r_header {
-        all: revert;
-        position: fixed;
-        top: 80px;
-        left: 0px;
-        right: 20px;
-        width: 100%;
-        z-index: 3;
-        border: 0px solid white;
     }
     .music-travel h2 {
         font-size: 20px;
@@ -892,7 +777,7 @@ footer p {
     .posters {
         width: 80%;
     }
-    .card {
+    .box {
         font-size: 15px;
         display: flex;
         flex-direction: column;
@@ -916,7 +801,7 @@ footer p {
     .aboutUs p {
         padding: 0;
     }
-    .card div {
+    .box div {
         margin-left: 0;
     }
     .musichall {
@@ -952,8 +837,7 @@ footer p {
     }
     .phone a {
         color: #000;
-        font-size: large;
-        font-weight: 600;
+        font-size: x-large;
     }
     .worktime-button {
         width: 100px;
@@ -975,7 +859,7 @@ footer p {
     footer p {
         font-size: 10px;
     }
-    .card img {
+    .box img {
         width: 300px;
     }
 }
