@@ -28,7 +28,7 @@ main {
 }
 
 header {
-    background-color: rgb(54, 37, 15);
+    background-color: #666464;
     position: fixed;
     width: 100%;
     opacity: .9;
@@ -79,6 +79,7 @@ h1 {
 
 .card img {
     margin-bottom: 40px;
+    width: 700px;
 }
 
 .card p {
@@ -120,6 +121,10 @@ h3 {
     text-decoration: none;
     color: black;
     transition: .5s;
+}
+
+.back-button-adaptive {
+    display: none;
 }
 
 .back-button:hover {
@@ -171,4 +176,92 @@ footer {
 
 footer p {
     padding-top: 10px;
+}
+
+@media(max-width:425px) {
+    .container {
+        width: 350px;
+        margin: auto;
+    }
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .ensemble-logo {
+        width: 200px;
+    }
+    .card img {
+        margin-bottom: 40px;
+        width: 350px;
+    }
+    nav a {
+        display: none;
+    }
+    .back {
+        padding-top: 100px;
+    }
+    .logo {
+        width: 50px;
+    }
+    h1 {
+        font-size: 30px;
+        font-family: "augustus";
+        letter-spacing: 0;
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+    .back-button {
+        display: none;
+    }
+    .back-button-adaptive {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+        margin-right: 25px;
+    }
+    .back-button-adaptive a {
+        height: 20px;
+        text-decoration: none;
+        color: black;
+        transition: .5s;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        padding-top: 150px;
+        text-align: center;
+    }
+    .card div {
+        margin-left: 0;
+    }
+    .card-button {
+        margin-bottom: 30px;
+    }
+    .programm {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    h4 {
+        font-size: x-large;
+        text-decoration: underline;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .info {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+        background-color: rgb(27, 26, 26);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    footer p {
+        font-size: 10px;
+    }
 }
