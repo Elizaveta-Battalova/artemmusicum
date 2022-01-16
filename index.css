@@ -648,7 +648,10 @@ footer p {
         height: 150px;
     }
     .dropdown {
-        margin-left: 250px;
+        padding-top: 100px;
+        z-index: 999;
+        position: fixed;
+        margin-left: 300px;
     }
     h1 {
         font-size: 30px;
@@ -776,7 +779,7 @@ footer p {
         padding-top: 100px;
         z-index: 999;
         position: fixed;
-        margin-left: 300px;
+        margin-left: 250px;
     }
     h1 {
         font-size: 30px;
@@ -812,6 +815,7 @@ footer p {
     }
     .we-are {
         flex-wrap: wrap;
+        margin-bottom: 100px;
     }
     .what-we-do {
         flex-wrap: wrap;
