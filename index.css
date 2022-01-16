@@ -667,20 +667,21 @@ footer p {
         margin-bottom: 50px;
     }
     .worktime p {
-        font-size: 10px;
+        font-size: large;
         margin-bottom: 10px;
     }
     h5 {
-        font-size: 15px;
-        margin-bottom: 10px;
+        font-size: x-large;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     .phone a {
         color: #000;
-        font-size: 10px;
+        font-size: large;
         font-weight: 600;
     }
     .worktime-button {
-        width: 100px;
+        width: 130px;
         height: 30px;
         border: 1px black solid;
         transition: 1s;
@@ -808,12 +809,13 @@ footer p {
         margin-bottom: 50px;
     }
     .worktime p {
-        font-size: 10px;
+        font-size: large;
         margin-bottom: 10px;
     }
     h5 {
-        font-size: 15px;
-        margin-bottom: 10px;
+        font-size: x-large;
+        margin-bottom: 30px;
+        margin-top: 30px;
     }
     .phone a {
         color: #000;
@@ -936,7 +938,8 @@ footer p {
     }
     h5 {
         font-size: 15px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
+        margin-top: 30px;
     }
     .phone a {
         color: #000;
