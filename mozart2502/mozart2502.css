@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-appearance: none;
 }
 
 html,
@@ -94,6 +95,16 @@ h1 {
 
 .card-about {
     font-weight: bold;
+}
+
+.card-about a {
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.card-about a:hover {
+    color: red;
 }
 
 h3 {
