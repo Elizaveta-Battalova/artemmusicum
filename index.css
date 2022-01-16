@@ -362,6 +362,9 @@ footer p {
     .box {
         font-size: 15px;
     }
+    .box img {
+        width: 900px;
+    }
     .music-travel h2 {
         font-size: 30px;
     }
@@ -423,6 +426,9 @@ footer p {
     }
     .box {
         font-size: 10px;
+    }
+    .box img {
+        width: 700px;
     }
     .music-travel h2 {
         font-size: 20px;
