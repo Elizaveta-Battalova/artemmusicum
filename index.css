@@ -558,8 +558,14 @@ footer p {
     .we-are {
         flex-wrap: wrap;
     }
+    .we-are h2 {
+        width: 30%;
+    }
     .what-we-do {
         flex-wrap: wrap;
+    }
+    .what-we-do h2 {
+        width: 50%;
     }
     .aboutUs h2 {
         font-size: 35px;
@@ -619,13 +625,14 @@ footer p {
         font-size: x-large;
     }
     .worktime-button {
-        width: 130px;
-        height: 30px;
+        width: 150px;
+        height: 40px;
         border: 1px black solid;
         transition: 1s;
     }
     .worktime-button a {
-        font-size: 10px;
+        font-size: 15px;
+        font-weight: 400;
     }
     .logoinfo {
         margin-bottom: 100px;
