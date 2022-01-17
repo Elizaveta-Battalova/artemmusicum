@@ -297,6 +297,9 @@ h5 {
 
 .worktime-button {
     background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
     font-weight: bold;
     width: 200px;
     height: 40px;
@@ -306,11 +309,7 @@ h5 {
 
 .worktime-button:hover {
     border: 2px rgb(197, 0, 0) solid;
-}
-
-.worktime-button a {
     color: black;
-    text-decoration: none;
 }
 
 .worktime-button a:hover {
@@ -489,14 +488,15 @@ footer p {
         width: 50%;
     }
     .worktime-button {
+        background-color: white;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
         width: 200px;
-        height: 50px;
-        border: 1px black solid;
+        height: 40px;
+        border: 2px black solid;
         transition: 1s;
-    }
-    .worktime-button a {
-        font-size: 20px;
-        font-weight: 400;
     }
     nav a {
         display: none;
@@ -671,14 +671,15 @@ footer p {
         font-size: x-large;
     }
     .worktime-button {
+        background-color: white;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
         width: 200px;
-        height: 50px;
-        border: 1px black solid;
+        height: 40px;
+        border: 2px black solid;
         transition: 1s;
-    }
-    .worktime-button a {
-        font-size: 20px;
-        font-weight: 400;
     }
     .logoinfo {
         margin-bottom: 100px;
@@ -818,13 +819,15 @@ footer p {
         font-size: x-large;
     }
     .worktime-button {
-        width: 100px;
-        height: 30px;
-        border: 1px black solid;
+        background-color: white;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        width: 200px;
+        height: 40px;
+        border: 2px black solid;
         transition: 1s;
-    }
-    .worktime-button a {
-        font-size: 10px;
     }
     footer {
         width: 100%;
@@ -938,13 +941,15 @@ footer p {
         font-size: x-large;
     }
     .worktime-button {
-        width: 100px;
-        height: 30px;
-        border: 1px black solid;
+        background-color: white;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        width: 200px;
+        height: 40px;
+        border: 2px black solid;
         transition: 1s;
-    }
-    .worktime-button a {
-        font-size: 10px;
     }
     footer {
         width: 100%;
