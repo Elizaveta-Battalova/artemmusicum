@@ -477,17 +477,16 @@ footer p {
     .we-are {
         width: 100%;
         margin-top: 150px;
+        margin-bottom: 50px;
     }
     .we-are h2 {
         width: 30%;
-        margin-bottom: 30px;
     }
     .what-we-do {
         width: 100%;
     }
     .what-we-do h2 {
         width: 50%;
-        margin-bottom: 30px;
     }
     .worktime-button {
         background-color: white;
