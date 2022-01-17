@@ -123,7 +123,7 @@ main {
     text-align: center;
     font-size: 45px;
     margin-top: 20px;
-    color: #666464;
+    color: #230c01;
 }
 
 .music-travel p {
@@ -147,6 +147,7 @@ main {
 
 .box div {
     margin-left: 40px;
+    color: #230c01;
 }
 
 .box img {
@@ -158,18 +159,13 @@ main {
     font-size: 20px;
 }
 
-.date {
-    font-weight: bold;
-    color: red;
-}
-
 .card-about {
     font-weight: bold;
 }
 
 .card-about a {
     text-decoration: none;
-    color: black;
+    color: #230c01;
     transition: 1s;
 }
 
@@ -180,10 +176,17 @@ main {
 h3 {
     margin-bottom: 20px;
     font-size: 30px;
+    color: #230c01;
+}
+
+.date {
+    font-weight: bold;
+    color: red;
 }
 
 .box button {
     background-color: white;
+    color: #230c01;
     font-weight: bold;
     width: 150px;
     height: 40px;
@@ -214,13 +217,14 @@ h3 {
 }
 
 .aboutUs h2 {
-    color: black;
+    color: #230c01;
     font-size: 50px;
 }
 
 .aboutUs p {
     font-size: 20px;
     padding-left: 10px;
+    color: #230c01;
 }
 
 .we-are {
@@ -258,12 +262,13 @@ h3 {
 .logoinfo p {
     margin-bottom: 10px;
     font-size: 12px;
+    color: #230c01;
 }
 
 h4 {
     font-family: "augustus";
     font-size: 50px;
-    color: #666464;
+    color: #230c01;
     margin-bottom: 15px;
 }
 
@@ -281,12 +286,14 @@ h4 {
 .worktime p {
     font-size: 20px;
     margin-bottom: 20px;
+    color: #230c01;
 }
 
 h5 {
     font-size: 25px;
     font-family: "augustus";
     margin-bottom: 20px;
+    color: #230c01;
 }
 
 .phone a {
@@ -299,7 +306,7 @@ h5 {
     background-color: white;
     padding: 10px;
     text-decoration: none;
-    color: black;
+    color: #230c01;
     font-weight: bold;
     width: 200px;
     height: 40px;
@@ -309,11 +316,7 @@ h5 {
 
 .worktime-button:hover {
     border: 2px rgb(197, 0, 0) solid;
-    color: black;
-}
-
-.worktime-button a:hover {
-    color: black;
+    color: #230c01;
 }
 
 footer {
@@ -493,7 +496,7 @@ footer p {
         background-color: white;
         padding: 10px;
         text-decoration: none;
-        color: black;
+        color: #230c01;
         font-weight: bold;
         width: 200px;
         height: 40px;
@@ -541,7 +544,7 @@ footer p {
         padding-bottom: 10px;
     }
     .btn-secondary {
-        background-color: #a4a4a4;
+        background-color: #230c01;
     }
     .announcement {
         font-size: 30px;
@@ -677,7 +680,7 @@ footer p {
         background-color: white;
         padding: 10px;
         text-decoration: none;
-        color: black;
+        color: #230c01;
         font-weight: bold;
         width: 200px;
         height: 40px;
@@ -703,7 +706,7 @@ footer p {
     }
     .music-travel h2 {
         font-size: 20px;
-        text-shadow: #666464 1px 0 10px;
+        text-shadow: #230c01 1px 0 10px;
     }
     .music-travel p {
         font-size: 15px;
@@ -711,7 +714,7 @@ footer p {
         padding-top: 100px;
         margin-bottom: 150px;
         width: 300px;
-        text-shadow: #666464 1px 0 10px;
+        text-shadow: #230c01 1px 0 10px;
     }
 }
 
@@ -731,7 +734,7 @@ footer p {
         margin-left: 300px;
     }
     .btn-secondary {
-        background-color: #a4a4a4;
+        background-color: #230c01;
     }
     h1 {
         font-size: 30px;
@@ -742,7 +745,7 @@ footer p {
     }
     .music-travel h2 {
         font-size: 20px;
-        text-shadow: #666464 1px 0 10px;
+        text-shadow: #230c01 1px 0 10px;
     }
     .music-travel p {
         font-size: 15px;
@@ -750,7 +753,7 @@ footer p {
         padding-top: 100px;
         margin-bottom: 150px;
         width: 300px;
-        text-shadow: #666464 1px 0 10px;
+        text-shadow: #230c01 1px 0 10px;
     }
     .hook {
         display: flex;
@@ -825,7 +828,7 @@ footer p {
         background-color: white;
         padding: 10px;
         text-decoration: none;
-        color: black;
+        color: #230c01;
         font-weight: bold;
         width: 200px;
         height: 40px;
@@ -947,7 +950,7 @@ footer p {
         background-color: white;
         padding: 10px;
         text-decoration: none;
-        color: black;
+        color: #230c01;
         font-weight: bold;
         width: 200px;
         height: 40px;
