@@ -450,10 +450,9 @@ footer p {
         margin-bottom: 100px;
     }
     .posters {
-        display: flex;
-        flex-wrap: wrap;
+        margin-left: 20px;
         text-align: center;
-        width: 80%;
+        width: 100%;
     }
     .box div {
         margin-left: 0;
@@ -596,8 +595,7 @@ footer p {
         width: 300px;
     }
     .posters {
-        display: flex;
-        flex-wrap: wrap;
+        margin-left: 20px;
         text-align: center;
         width: 100%;
     }
