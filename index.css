@@ -435,10 +435,7 @@ footer p {
         height: 80px;
     }
     .dropdown {
-        z-index: 999;
-        position: fixed;
-        margin-top: 25px;
-        left: 300px;
+        margin-left: 20px;
     }
     .dropdown-menu {
         width: 200px;
