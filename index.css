@@ -394,6 +394,9 @@ footer p {
         margin: auto;
         padding: 0;
     }
+    body {
+        text-align: center;
+    }
     .main-section {
         background-image: url("./images/conductor.jpg");
         background-repeat: no-repeat;
