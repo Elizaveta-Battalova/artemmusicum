@@ -572,6 +572,7 @@ footer p {
         text-align: center;
         margin: 0;
         padding: 0;
+        width: 330px;
     }
     .box {
         font-size: 15px;
