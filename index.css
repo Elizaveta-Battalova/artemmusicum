@@ -560,10 +560,7 @@ footer p {
         flex-direction: row;
     }
     .dropdown {
-        z-index: 999;
-        position: fixed;
-        margin-top: 35px;
-        left: 330px;
+        margin-left: 20px;
     }
     .dropdown-menu {
         width: 200px;
