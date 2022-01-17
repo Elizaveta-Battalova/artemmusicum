@@ -188,6 +188,8 @@ h3 {
     width: 150px;
     height: 40px;
     border: 2px black solid;
+    font-size: 15px;
+    font-weight: 400;
     transition: 1s;
     margin-top: 30px;
     cursor: pointer;
