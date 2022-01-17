@@ -161,7 +161,7 @@ main {
 
 .card-about {
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .card-about a {
@@ -188,7 +188,7 @@ h3 {
 }
 
 .programm-name:hover {
-    color: red;
+    color: #230c01;
 }
 
 .date {
@@ -206,7 +206,7 @@ h3 {
     font-size: 15px;
     font-weight: 400;
     transition: 1s;
-    margin-top: 30px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -431,7 +431,7 @@ footer p {
         letter-spacing: 0;
     }
     .nav-block {
-        height: 100px;
+        height: 80px;
     }
     .music-travel {
         padding-top: 200px;
@@ -540,7 +540,7 @@ footer p {
         background-position: center;
     }
     .nav-block {
-        height: 100px;
+        height: 80px;
     }
     .dropdown {
         padding-top: 100px;
