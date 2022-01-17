@@ -453,7 +453,7 @@ footer p {
         display: flex;
         flex-wrap: wrap;
         text-align: center;
-        width: 100%;
+        width: 80%;
     }
     .box div {
         margin-left: 0;
