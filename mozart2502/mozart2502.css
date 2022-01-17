@@ -29,7 +29,7 @@ main {
 }
 
 header {
-    background-color: #666464;
+    background-color: #230c01;
     position: fixed;
     width: 100%;
     opacity: .95;
@@ -194,7 +194,7 @@ li {
 
 footer {
     width: 100%;
-    background-color: rgb(27, 26, 26);
+    background-color: #230c01;
     color: white;
     display: flex;
     flex-direction: column;
