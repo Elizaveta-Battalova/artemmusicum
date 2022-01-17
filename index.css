@@ -425,13 +425,20 @@ footer p {
         width: 50px;
     }
     h1 {
-        font-size: 25px;
+        font-size: 27px;
         font-family: "augustus";
-        margin-bottom: 20px;
         letter-spacing: 0;
+        padding-top: 20px;
+        padding-left: 0;
     }
     .nav-block {
         height: 80px;
+    }
+    .dropdown {
+        z-index: 999;
+        position: fixed;
+        margin-top: 35px;
+        left: 330px;
     }
     .dropdown-menu {
         width: 200px;
@@ -548,11 +555,15 @@ footer p {
     .nav-block {
         height: 80px;
     }
+    .logo-text {
+        display: flex;
+        flex-direction: row;
+    }
     .dropdown {
-        padding-top: 100px;
         z-index: 999;
         position: fixed;
-        margin-left: 300px;
+        margin-top: 35px;
+        left: 330px;
     }
     .dropdown-menu {
         width: 200px;
@@ -571,7 +582,7 @@ footer p {
         font-size: 30px;
     }
     h1 {
-        font-size: 30px;
+        font-size: 27px;
         font-family: "augustus";
         letter-spacing: 0;
         padding-top: 20px;
