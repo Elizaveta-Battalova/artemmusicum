@@ -435,7 +435,7 @@ footer p {
         font-size: 10px;
     }
     .box img {
-        width: 700px;
+        width: 750px;
     }
     .box button {
         width: 200px;
@@ -465,7 +465,7 @@ footer p {
         background-image: url("./images/musichall.jpg");
         background-size: contain;
         height: 380px;
-        margin-top: 200px;
+        margin-top: 1500px;
     }
     .aboutUs {
         display: flex;
@@ -474,6 +474,7 @@ footer p {
     }
     .we-are {
         width: 100%;
+        margin-top: 150px;
     }
     .we-are h2 {
         width: 30%;
@@ -576,6 +577,14 @@ footer p {
     }
     .box img {
         width: 330px;
+    }
+    .aboutUs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 200px;
     }
     .music-travel h2 {
         font-size: 30px;
