@@ -372,6 +372,9 @@ footer p {
     .box img {
         width: 600px;
     }
+    .box div {
+        margin-left: 0;
+    }
     .music-travel h2 {
         font-size: 30px;
     }
@@ -444,7 +447,7 @@ footer p {
         transition: 1s;
         font-weight: 400;
         font-size: 20px;
-        margin-bottom: 40px;
+        margin-bottom: 80px;
         margin-top: 10px;
     }
     .music-travel h2 {
@@ -465,7 +468,7 @@ footer p {
         background-image: url("./images/musichall.jpg");
         background-size: contain;
         height: 380px;
-        margin-top: 1500px;
+        margin-top: 150px;
     }
     .aboutUs {
         display: flex;
