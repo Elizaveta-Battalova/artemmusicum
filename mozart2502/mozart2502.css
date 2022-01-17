@@ -32,7 +32,7 @@ header {
     background-color: #666464;
     position: fixed;
     width: 100%;
-    opacity: .9;
+    opacity: .95;
     margin-bottom: 300px;
 }
 
@@ -156,14 +156,27 @@ h3 {
     font-size: 19px;
 }
 
+ul p {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
 h4 {
     padding-bottom: 15px;
 }
 
 .about-mozart p {
     padding-bottom: 15px;
-    font-size: 20px;
     font-style: italic;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 li {
