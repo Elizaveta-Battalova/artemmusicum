@@ -160,7 +160,7 @@ main {
 }
 
 .card-about {
-    font-weight: bold;
+    font-weight: 400;
     margin-top: 20px;
 }
 
@@ -450,6 +450,7 @@ footer p {
     }
     .box div {
         margin-left: 0;
+        margin-bottom: 100px;
     }
     .box {
         font-size: 10px;
@@ -599,6 +600,7 @@ footer p {
     }
     .box div {
         margin-left: 0;
+        margin-bottom: 100px;
     }
     .box img {
         width: 330px;
@@ -644,7 +646,7 @@ footer p {
         border: 1px black solid;
         transition: 1s;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 10px;
         margin-bottom: 40px;
         margin-top: 10px;
     }
