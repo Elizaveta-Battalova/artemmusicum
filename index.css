@@ -81,7 +81,7 @@ h1 {
 
 .music-travel {
     color: white;
-    padding-top: 500px;
+    padding-top: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,7 +130,7 @@ main {
     font-size: 20px;
     line-height: 40px;
     padding-top: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .posters {
@@ -464,10 +464,13 @@ footer p {
         width: 100%;
     }
     .we-are h2 {
-        width: 50%;
+        width: 30%;
     }
     .what-we-do {
         width: 100%;
+    }
+    .what-we-do h2 {
+        width: 50%;
     }
     nav a {
         display: none;
