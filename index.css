@@ -437,6 +437,16 @@ footer p {
     .box img {
         width: 700px;
     }
+    .box button {
+        width: 200px;
+        height: 50px;
+        border: 1px black solid;
+        transition: 1s;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
     .music-travel h2 {
         font-size: 20px;
     }
@@ -454,6 +464,7 @@ footer p {
         background-image: url("./images/musichall.jpg");
         background-size: contain;
         height: 380px;
+        margin-top: 200px;
     }
     .aboutUs {
         display: flex;
@@ -471,6 +482,16 @@ footer p {
     }
     .what-we-do h2 {
         width: 50%;
+    }
+    .worktime-button {
+        width: 200px;
+        height: 50px;
+        border: 1px black solid;
+        transition: 1s;
+    }
+    .worktime-button a {
+        font-size: 20px;
+        font-weight: 400;
     }
     nav a {
         display: none;
@@ -580,11 +601,14 @@ footer p {
         margin-left: 0;
     }
     .box button {
-        width: 130px;
-        height: 30px;
+        width: 200px;
+        height: 50px;
         border: 1px black solid;
         transition: 1s;
-        font-size: 10px;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 40px;
+        margin-top: 10px;
     }
     .card-about a {
         text-decoration: underline;
@@ -594,6 +618,7 @@ footer p {
         background-size: cover;
         background-repeat: no-repeat;
         height: 200px;
+        margin-top: 170px;
     }
     .contacts {
         display: block;
@@ -628,13 +653,13 @@ footer p {
         font-size: x-large;
     }
     .worktime-button {
-        width: 150px;
-        height: 40px;
+        width: 200px;
+        height: 50px;
         border: 1px black solid;
         transition: 1s;
     }
     .worktime-button a {
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 400;
     }
     .logoinfo {
