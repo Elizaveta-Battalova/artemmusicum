@@ -597,7 +597,7 @@ footer p {
         display: flex;
         flex-wrap: wrap;
         text-align: center;
-        width: 80%;
+        width: 100%;
     }
     .box {
         font-size: 15px;
