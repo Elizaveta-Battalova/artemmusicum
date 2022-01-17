@@ -453,7 +453,8 @@ footer p {
     .aboutUs {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
+        text-align: center;
         margin-top: 100px;
         margin-bottom: 200px;
     }
@@ -572,6 +573,9 @@ footer p {
         flex-direction: column;
         flex-wrap: wrap;
         padding-top: 20px;
+    }
+    .box img {
+        width: 330px;
     }
     .music-travel h2 {
         font-size: 30px;
