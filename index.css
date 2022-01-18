@@ -387,17 +387,18 @@ footer p {
     padding-top: 10px;
 }
 
-
-/* @media(max-width: 1024px) {
+@media(max-width: 1024px) {
     .container {
         width: 950px;
         margin: auto;
         padding: 0;
     }
+    .dropdown {
+        display: flex;
+        justify-content: flex-end;
+    }
     nav {
-        height: 150px;
-        font-size: 15px;
-        width: 400px;
+        display: none;
     }
     h1 {
         font-size: 25px;
@@ -408,7 +409,7 @@ footer p {
         font-family: "augustus";
     }
     .music-travel {
-        padding-top: 300px;
+        padding-top: 0;
     }
     .music-travel h2 {
         font-size: 30px;
@@ -420,13 +421,16 @@ footer p {
         margin-bottom: 150px;
     }
     .posters {
-        width: 80%;
+        width: 100%;
     }
     .box {
         font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .box img {
-        width: 600px;
+        width: 400px;
     }
     .box div {
         margin-left: 0;
@@ -445,9 +449,9 @@ footer p {
         background-size: contain;
         height: 520px;
     }
-} */
+}
 
-@media(max-width:1024px) {
+@media(max-width:768px) {
     .container {
         max-width: 700px;
         margin: auto;
