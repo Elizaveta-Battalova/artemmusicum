@@ -123,11 +123,11 @@ h1 {
 
 .music-travel {
     color: white;
-    padding-top: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 400px;
 }
 
 .music-travel h2 {
@@ -387,7 +387,8 @@ footer p {
     padding-top: 10px;
 }
 
-@media(max-width: 1024px) {
+
+/* @media(max-width: 1024px) {
     .container {
         width: 950px;
         margin: auto;
@@ -444,7 +445,7 @@ footer p {
         background-size: contain;
         height: 520px;
     }
-}
+} */
 
 @media(max-width:768px) {
     .container {
@@ -458,7 +459,8 @@ footer p {
         height: 600px;
     }
     .music-travel {
-        padding-top: 200px;
+        padding-top: 0;
+        margin-top: 0;
     }
     .logo {
         width: 50px;
@@ -605,7 +607,6 @@ footer p {
         font-size: 20px;
     }
     .music-travel {
-        padding-top: 200px;
         text-align: center;
     }
     .music-travel h2 {
