@@ -444,7 +444,6 @@ footer .container {
         font-size: 35px;
     }
     .footer {
-        min-width: 1200px;
         margin: auto;
     }
 }
@@ -558,7 +557,6 @@ footer .container {
         width: 30px;
     }
     .footer {
-        min-width: 768px;
         margin: auto;
     }
 }
@@ -732,7 +730,6 @@ footer .container {
         text-shadow: #230c01 1px 0 10px;
     }
     .footer {
-        min-width: 425px;
         margin: auto;
     }
 }
@@ -847,7 +844,6 @@ footer .container {
         width: 300px;
     }
     .footer {
-        min-width: 375px;
         margin: auto;
     }
 }
@@ -943,7 +939,6 @@ footer .container {
         transition: 1s;
     }
     .footer {
-        min-width: 320px;
         margin: auto;
     }
     .box img {
