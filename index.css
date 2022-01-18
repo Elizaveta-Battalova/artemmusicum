@@ -153,7 +153,7 @@ nav a:hover {
 main {
     display: flex;
     flex: 1 1 auto;
-    flex-direction: row;
+    flex-direction: column;
     background-size: 100%;
     -webkit-transform: translateZ(0px);
     scroll-behavior: smooth;
@@ -445,11 +445,6 @@ footer {
     .aboutUs h2 {
         font-size: 35px;
     }
-    .musichall {
-        background-image: url("./images/musichall.jpg");
-        background-size: contain;
-        height: 520px;
-    }
 }
 
 @media(max-width:768px) {
@@ -527,12 +522,6 @@ footer {
     }
     .aboutUs h2 {
         font-size: 30px;
-    }
-    .musichall {
-        background-image: url("./images/musichall.jpg");
-        background-size: contain;
-        height: 380px;
-        margin-top: 150px;
     }
     .aboutUs {
         display: flex;
@@ -689,13 +678,6 @@ footer {
     .card-about a {
         text-decoration: underline;
     }
-    .musichall {
-        background-image: url("./images/musichall.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 200px;
-        margin-top: 170px;
-    }
     .contacts {
         display: block;
     }
@@ -816,12 +798,6 @@ footer {
     }
     .box div {
         margin-left: 0;
-    }
-    .musichall {
-        background-image: url("./images/musichall.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 200px;
     }
     .contacts {
         flex-wrap: wrap;
