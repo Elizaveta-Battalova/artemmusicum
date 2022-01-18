@@ -399,7 +399,7 @@ footer .container {
         justify-content: flex-end;
     }
     .main-section {
-        width: 100%;
+        min-width: 1200px;
     }
     nav {
         display: none;
@@ -430,7 +430,7 @@ footer .container {
         align-items: center;
     }
     .box img {
-        width: 400px;
+        width: 50%;
     }
     .box div {
         margin-left: 0;
@@ -445,7 +445,7 @@ footer .container {
         font-size: 35px;
     }
     .footer {
-        min-width: 1024px;
+        min-width: 1200px;
         margin: auto;
     }
 }
