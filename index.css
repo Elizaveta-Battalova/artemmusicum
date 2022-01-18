@@ -473,9 +473,6 @@ footer .container {
         font-size: 30px;
         padding-left: 9px;
     }
-    .nav-block {
-        height: 80px;
-    }
     .music-travel {
         padding-top: 200px;
     }
@@ -759,9 +756,6 @@ footer .container {
         margin: auto;
         padding: 0;
     }
-    .nav-block {
-        height: 150px;
-    }
     h1 {
         padding-left: 5px;
     }
@@ -876,9 +870,6 @@ footer .container {
         width: 280px;
         margin: auto;
         padding: 0;
-    }
-    .nav-block {
-        height: 150px;
     }
     .music-travel h2 {
         font-size: 20px;
