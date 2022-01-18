@@ -433,6 +433,8 @@ footer .container {
     }
     .box div {
         margin-left: 0;
+        align-items: center;
+        height: 300px;
     }
     .music-travel h2 {
         font-size: 30px;
