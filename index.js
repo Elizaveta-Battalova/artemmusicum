@@ -1,5 +1,14 @@
-// function hideMenu() {
-//     let item = document.getElementById("dropdown-content");
-//     if (item.style.display == "block") item.style.display = "none";
-//     else item.style.display = "block";
-// }
+const dropdownListContainer = document.querySelector(
+    ".dropdown-list-container"
+);
+const dropdownBtn = document.querySelector(".dropdown-btn");
+
+dropdownBtn.addEventListener("click", function() {
+    dropdownListContainer.classList.toggle("show");
+});
+
+window.addEventListener("click", function(event) {
+    if (!event.target.matches(".dropdown-btn")) {
+        dropdownListContainer.classList.remove("show");
+    }
+});

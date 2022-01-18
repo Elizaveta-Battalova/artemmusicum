@@ -6,6 +6,7 @@
 html,
 body {
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -29,6 +30,51 @@ header {
     width: 100%;
     opacity: .95;
     z-index: 99;
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdown-btn {
+    background-image: url("./images/menu.png");
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-btn:hover {
+    background-color: black;
+}
+
+.dropdown-list-container {
+    text-align: center;
+    width: 150px;
+    padding: 15px 25px;
+    display: none;
+    position: absolute;
+    background-color: #230c01;
+    opacity: 0.9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-list-container a {
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.dropdown-list-container a:hover {
+    color: #ddd;
+}
+
+.show {
+    display: block;
 }
 
 .container {
@@ -57,10 +103,6 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.logo-text {
-    text-align: center;
 }
 
 .logo {
@@ -107,6 +149,7 @@ nav a:hover {
     background-image: url("./images/conductor.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 850px;
 }
 
 main {
@@ -344,10 +387,6 @@ footer p {
     padding-top: 10px;
 }
 
-.dropdown {
-    display: none;
-}
-
 @media(max-width: 1024px) {
     .container {
         width: 950px;
@@ -433,13 +472,6 @@ footer p {
     }
     .nav-block {
         height: 80px;
-    }
-    .dropdown {
-        margin-left: 20px;
-    }
-    .dropdown-menu {
-        width: 200px;
-        background-color: #230c01;
     }
     .music-travel {
         padding-top: 200px;
@@ -531,10 +563,6 @@ footer p {
     nav a {
         display: none;
     }
-    .dropdown {
-        display: flex;
-        justify-content: flex-end;
-    }
 }
 
 @media(max-width:425px) {
@@ -549,25 +577,16 @@ footer p {
         height: 600px;
         background-position: center;
     }
+    .dropdown {
+        display: flex;
+        justify-content: flex-end;
+    }
     .nav-block {
         height: 80px;
     }
     .logo-text {
         display: flex;
         flex-direction: row;
-    }
-    .dropdown {
-        margin-left: 20px;
-    }
-    .dropdown-menu {
-        width: 200px;
-        background-color: #230c01;
-    }
-    .dropdown-item {
-        text-align: center;
-        font-size: x-large;
-        color: white;
-        padding-bottom: 10px;
     }
     .btn-secondary {
         background-color: #230c01;
@@ -579,7 +598,7 @@ footer p {
         font-size: 27px;
         font-family: "augustus";
         letter-spacing: 0;
-        padding-top: 20px;
+        padding-top: 0;
         padding-left: 0;
     }
     .music-travel h2 {
@@ -756,15 +775,6 @@ footer p {
     .nav-block {
         height: 150px;
     }
-    .dropdown {
-        padding-top: 100px;
-        z-index: 999;
-        position: fixed;
-        margin-left: 300px;
-    }
-    .btn-secondary {
-        background-color: #230c01;
-    }
     h1 {
         font-size: 30px;
         font-family: "augustus";
@@ -888,12 +898,6 @@ footer p {
     }
     .nav-block {
         height: 150px;
-    }
-    .dropdown {
-        padding-top: 100px;
-        z-index: 999;
-        position: fixed;
-        margin-left: 250px;
     }
     h1 {
         font-size: 28px;
