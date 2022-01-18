@@ -147,6 +147,7 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     height: 850px;
+    background-position: center;
 }
 
 main {
@@ -454,11 +455,6 @@ footer .container {
         margin: auto;
         padding: 0;
     }
-    .main-section {
-        background-image: url("./images/conductor.jpg");
-        background-repeat: no-repeat;
-        height: 600px;
-    }
     .music-travel {
         padding-top: 0;
         margin-top: 0;
@@ -572,12 +568,6 @@ footer .container {
         width: 330px;
         margin: auto;
         padding: 0;
-    }
-    .main-section {
-        background-image: url("./images/conductor.jpg");
-        background-repeat: no-repeat;
-        height: 600px;
-        background-position: center;
     }
     .dropdown {
         display: flex;
