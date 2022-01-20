@@ -728,6 +728,7 @@ footer .container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin-bottom: 60px;
     }
     .music-travel h2 {
         width: 90%;
