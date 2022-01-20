@@ -157,7 +157,6 @@ main {
     flex: 1 1 auto;
     flex-direction: column;
     background-size: 100%;
-    -webkit-transform: translateZ(0px);
     scroll-behavior: smooth;
 }
 
@@ -721,6 +720,7 @@ footer .container {
 @media(max-width:576px) {
     h1 {
         padding-left: 5px;
+        font-size: 25px;
     }
     .hook {
         display: flex;
@@ -758,6 +758,7 @@ footer .container {
     }
     .box div {
         margin-left: 0;
+        margin-bottom: 0;
     }
     .contacts {
         flex-wrap: wrap;
@@ -799,6 +800,9 @@ footer .container {
         border: 2px black solid;
         transition: 1s;
     }
+    .we-are {
+        margin-top: 50px;
+    }
     footer {
         width: 100%;
         background-color: #230c01;
@@ -809,9 +813,6 @@ footer .container {
     }
     footer p {
         font-size: 10px;
-    }
-    .box img {
-        width: 300px;
     }
     .footer {
         margin: auto;
