@@ -430,6 +430,7 @@ footer .container {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
     .box img {
         width: 50%;
@@ -740,9 +741,6 @@ footer .container {
     .hook {
         display: flex;
         font-size: x-large;
-    }
-    .posters {
-        width: 80%;
     }
     .box {
         font-size: 15px;
