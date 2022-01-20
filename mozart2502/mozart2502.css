@@ -205,10 +205,13 @@ footer p {
     padding-top: 10px;
 }
 
-@media(max-width:1200px) {
+@media(max-width:1400px) {
     .container {
-        width: 350px;
+        width: 90%;
         margin: auto;
+    }
+    li {
+        list-style-type: none;
     }
     header {
         height: 100px;
