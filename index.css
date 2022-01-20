@@ -163,7 +163,6 @@ main {
 
 .announcement {
     text-align: center;
-    text-align: center;
     font-size: 45px;
     margin-top: 20px;
     color: #230c01;
@@ -186,6 +185,10 @@ main {
     display: flex;
     flex-direction: row;
     padding-top: 50px;
+}
+
+.box img {
+    width: 400px;
 }
 
 .box div {
@@ -433,7 +436,6 @@ footer .container {
     }
     .box div {
         margin-left: 0;
-        align-items: center;
         height: 300px;
     }
     .music-travel h2 {
@@ -475,7 +477,6 @@ footer .container {
         margin-bottom: 100px;
     }
     .posters {
-        text-align: center;
         width: 100%;
     }
     .box div {
@@ -591,10 +592,6 @@ footer .container {
         padding-top: 100px;
         margin-bottom: 150px;
         width: 300px;
-    }
-    .posters {
-        text-align: center;
-        width: 100%;
     }
     .box {
         font-size: 15px;
