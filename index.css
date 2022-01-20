@@ -78,7 +78,7 @@ header {
 }
 
 .container {
-    width: 1400px;
+    width: 90%;
     margin: auto;
     font-family: 'Quicksand', sans-serif;
 }
@@ -391,11 +391,6 @@ footer .container {
 }
 
 @media(max-width: 1024px) {
-    .container {
-        width: 950px;
-        margin: auto;
-        padding: 0;
-    }
     .dropdown {
         display: flex;
         justify-content: flex-end;
@@ -454,11 +449,6 @@ footer .container {
 }
 
 @media(max-width:768px) {
-    .container {
-        max-width: 700px;
-        margin: auto;
-        padding: 0;
-    }
     .music-travel {
         padding-top: 0;
         margin-top: 0;
@@ -483,7 +473,6 @@ footer .container {
         margin-bottom: 100px;
     }
     .posters {
-        margin-left: 20px;
         text-align: center;
         width: 100%;
     }
@@ -567,11 +556,6 @@ footer .container {
 }
 
 @media(max-width:425px) {
-    .container {
-        width: 330px;
-        margin: auto;
-        padding: 0;
-    }
     .dropdown {
         display: flex;
         justify-content: flex-end;
@@ -607,7 +591,6 @@ footer .container {
         width: 300px;
     }
     .posters {
-        margin-left: 20px;
         text-align: center;
         width: 100%;
     }
@@ -740,11 +723,6 @@ footer .container {
 }
 
 @media(max-width:375px) {
-    .container {
-        width: 330px;
-        margin: auto;
-        padding: 0;
-    }
     h1 {
         padding-left: 5px;
     }
@@ -854,11 +832,6 @@ footer .container {
 }
 
 @media(max-width:320px) {
-    .container {
-        width: 280px;
-        margin: auto;
-        padding: 0;
-    }
     .music-travel h2 {
         font-size: 20px;
     }
@@ -868,9 +841,6 @@ footer .container {
         padding-top: 13px;
         margin-bottom: 150px;
         width: 300px;
-    }
-    .posters {
-        width: 80%;
     }
     .box {
         font-size: 15px;
