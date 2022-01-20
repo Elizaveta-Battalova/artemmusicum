@@ -395,7 +395,7 @@ footer .container {
     display: block;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 1200px) {
     .dropdown {
         display: flex;
         justify-content: flex-end;
@@ -452,7 +452,7 @@ footer .container {
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:992px) {
     .music-travel {
         padding-top: 0;
         margin-top: 0;
@@ -558,7 +558,7 @@ footer .container {
     }
 }
 
-@media(max-width:425px) {
+@media(max-width:768px) {
     .dropdown {
         display: flex;
         justify-content: flex-end;
@@ -721,7 +721,7 @@ footer .container {
     }
 }
 
-@media(max-width:375px) {
+@media(max-width:576px) {
     h1 {
         padding-left: 5px;
     }
@@ -830,7 +830,7 @@ footer .container {
     }
 }
 
-@media(max-width:320px) {
+@media(max-width:372px) {
     .music-travel h2 {
         font-size: 20px;
     }
