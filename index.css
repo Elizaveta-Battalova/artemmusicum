@@ -466,9 +466,6 @@ footer .container {
     .footer {
         margin: auto;
     }
-    .mozart-img {
-        width: 100%;
-    }
 }
 
 @media(max-width:992px) {
