@@ -395,14 +395,7 @@ footer .container {
     display: block;
 }
 
-@media(max-width: 1200px) {
-    .dropdown {
-        display: flex;
-        justify-content: flex-end;
-    }
-    nav {
-        display: none;
-    }
+@media(max-width: 1400px) {
     .nav-block {
         height: 80px;
     }
@@ -414,13 +407,97 @@ footer .container {
         padding-top: 0;
     }
     .music-travel h2 {
-        font-size: 30px;
+        font-size: 45px;
     }
     .music-travel p {
-        font-size: 15px;
-        line-height: 20px;
-        padding-top: 13px;
+        font-size: 25px;
+        line-height: 30px;
+        padding-top: 40px;
         margin-bottom: 150px;
+        width: 50%;
+        text-align: center;
+    }
+    .posters {
+        width: 100%;
+    }
+    .box div {
+        margin-left: 40;
+        height: 300px;
+    }
+    .music-travel h2 {
+        font-size: 30px;
+    }
+    .logo {
+        width: 80px;
+    }
+    .aboutUs h2 {
+        font-size: 35px;
+    }
+    .footer {
+        margin: auto;
+    }
+}
+
+@media(max-width: 1200px) {
+    .nav-block {
+        height: 80px;
+    }
+    nav {
+        width: 40%;
+    }
+    h1 {
+        font-size: 40px;
+        padding-left: 10px;
+    }
+    .music-travel {
+        padding-top: 0;
+    }
+    .posters {
+        width: 100%;
+    }
+    .music-travel h2 {
+        font-size: 30px;
+    }
+    .logo {
+        width: 80px;
+    }
+    .aboutUs h2 {
+        font-size: 35px;
+    }
+    .footer {
+        margin: auto;
+    }
+    .mozart-img {
+        width: 100%;
+    }
+}
+
+@media(max-width:992px) {
+    .music-travel {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .logo {
+        width: 50px;
+    }
+    h1 {
+        font-size: 30px;
+        padding-left: 9px;
+    }
+    nav {
+        width: 50%;
+    }
+    .music-travel {
+        padding-top: 350px;
+    }
+    .music-travel h2 {
+        font-size: 35px;
+    }
+    .music-travel p {
+        font-size: 20px;
+        line-height: 20px;
+        padding-top: 100px;
+        margin-bottom: 100px;
     }
     .posters {
         width: 100%;
@@ -440,57 +517,6 @@ footer .container {
         height: 300px;
         align-items: center;
     }
-    .music-travel h2 {
-        font-size: 30px;
-    }
-    .logo {
-        width: 80px;
-    }
-    .aboutUs h2 {
-        font-size: 35px;
-    }
-    .footer {
-        margin: auto;
-    }
-}
-
-@media(max-width:992px) {
-    .music-travel {
-        padding-top: 0;
-        margin-top: 0;
-    }
-    .logo {
-        width: 50px;
-    }
-    h1 {
-        font-size: 30px;
-        padding-left: 9px;
-    }
-    .music-travel {
-        padding-top: 200px;
-    }
-    .music-travel h2 {
-        font-size: 15px;
-    }
-    .music-travel p {
-        font-size: 10px;
-        line-height: 10px;
-        padding-top: 10px;
-        margin-bottom: 100px;
-    }
-    .posters {
-        width: 100%;
-    }
-    .box div {
-        margin-left: 0;
-        margin-bottom: 100px;
-    }
-    .box {
-        font-size: 10px;
-    }
-    .box img {
-        width: 750px;
-    }
     .box button {
         width: 200px;
         height: 50px;
@@ -500,9 +526,6 @@ footer .container {
         font-size: 20px;
         margin-bottom: 80px;
         margin-top: 10px;
-    }
-    .music-travel h2 {
-        font-size: 20px;
     }
     .aboutUs {
         display: flex;
@@ -534,6 +557,30 @@ footer .container {
     .what-we-do h2 {
         width: 50%;
     }
+    .contacts {
+        display: block;
+    }
+    .worktime {
+        margin-bottom: 60px;
+    }
+    .we-are {
+        flex-wrap: wrap;
+    }
+    .we-are h2 {
+        width: 30%;
+    }
+    .what-we-do {
+        flex-wrap: wrap;
+    }
+    .what-we-do h2 {
+        width: 50%;
+    }
+    .aboutUs h2 {
+        font-size: 35px;
+    }
+    .aboutUs p {
+        padding-left: 0;
+    }
     .worktime-button {
         background-color: white;
         padding: 10px;
@@ -544,9 +591,6 @@ footer .container {
         height: 40px;
         border: 2px black solid;
         transition: 1s;
-    }
-    nav a {
-        display: none;
     }
     .footer-info {
         width: 60%;
@@ -565,6 +609,9 @@ footer .container {
         display: flex;
         justify-content: flex-end;
     }
+    nav {
+        display: none;
+    }
     .logo-text {
         display: flex;
         flex-direction: row;
@@ -576,24 +623,11 @@ footer .container {
         font-size: 30px;
     }
     h1 {
-        font-size: 20px;
         padding-left: 8px;
     }
-    .music-travel h2 {
-        font-size: 20px;
-    }
-    .music-travel {
-        text-align: center;
-    }
-    .music-travel h2 {
-        font-size: 30px;
-    }
     .music-travel p {
-        font-size: 15px;
-        line-height: 20px;
-        padding-top: 100px;
-        margin-bottom: 150px;
-        width: 300px;
+        width: 60%;
+        line-height: 30px;
     }
     .box {
         font-size: 15px;
@@ -617,29 +651,8 @@ footer .container {
         margin-top: 100px;
         margin-bottom: 200px;
     }
-    .music-travel h2 {
-        font-size: 30px;
-    }
     .logo {
         width: 50px;
-    }
-    .we-are {
-        flex-wrap: wrap;
-    }
-    .we-are h2 {
-        width: 30%;
-    }
-    .what-we-do {
-        flex-wrap: wrap;
-    }
-    .what-we-do h2 {
-        width: 50%;
-    }
-    .aboutUs h2 {
-        font-size: 35px;
-    }
-    .aboutUs p {
-        padding-left: 0;
     }
     .box div {
         margin-left: 0;
@@ -656,12 +669,6 @@ footer .container {
     }
     .card-about a {
         text-decoration: underline;
-    }
-    .contacts {
-        display: block;
-    }
-    .worktime {
-        margin-bottom: 20px;
     }
     .logoinfo img {
         width: 100px;
@@ -706,18 +713,6 @@ footer .container {
     .box img {
         width: 330px;
     }
-    .music-travel h2 {
-        font-size: 20px;
-        text-shadow: #230c01 1px 0 10px;
-    }
-    .music-travel p {
-        font-size: 15px;
-        line-height: 20px;
-        padding-top: 100px;
-        margin-bottom: 150px;
-        width: 300px;
-        text-shadow: #230c01 1px 0 10px;
-    }
     .footer {
         margin: auto;
     }
@@ -726,18 +721,6 @@ footer .container {
 @media(max-width:576px) {
     h1 {
         padding-left: 5px;
-    }
-    .music-travel h2 {
-        font-size: 20px;
-        text-shadow: #230c01 1px 0 10px;
-    }
-    .music-travel p {
-        font-size: 15px;
-        line-height: 20px;
-        padding-top: 100px;
-        margin-bottom: 150px;
-        width: 300px;
-        text-shadow: #230c01 1px 0 10px;
     }
     .hook {
         display: flex;
@@ -750,7 +733,13 @@ footer .container {
         flex-wrap: wrap;
     }
     .music-travel h2 {
+        width: 90%;
+        text-align: center;
         font-size: 30px;
+    }
+    .music-travel p {
+        font-size: 20px;
+        width: 90%;
     }
     .logo {
         width: 50px;
