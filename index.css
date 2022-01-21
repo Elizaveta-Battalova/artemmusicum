@@ -301,6 +301,7 @@ h3 {
     color: #230c01;
     font-size: 50px;
     width: 200px;
+    margin-right: 20px;
 }
 
 .aboutUs2 p {
@@ -534,7 +535,7 @@ footer .container {
     .aboutUs {
         display: flex;
         flex-direction: column;
-        margin-top: 150px;
+        margin-top: 50px;
         margin-bottom: 0;
     }
     .we-are {
