@@ -559,7 +559,7 @@ footer .container {
     }
     .what-we-do-text {
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
     }
     .aboutUs2 {
         display: flex;
@@ -751,7 +751,7 @@ footer .container {
         width: 100px;
     }
     .what-we-do h2 {
-        width: 40%;
+        width: 50%;
     }
     h4 {
         font-size: 25px;
