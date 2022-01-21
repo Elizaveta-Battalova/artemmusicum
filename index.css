@@ -45,7 +45,6 @@ header {
     height: 35px;
     border: none;
     cursor: pointer;
-    z-index: 99;
 }
 
 .dropdown-btn:hover {
