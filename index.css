@@ -45,6 +45,7 @@ header {
     height: 35px;
     border: none;
     cursor: pointer;
+    z-index: 99;
 }
 
 .dropdown-btn:hover {
@@ -53,7 +54,7 @@ header {
 
 .dropdown-list-container {
     text-align: center;
-    width: 150px;
+    width: 200px;
     padding: 15px 25px;
     display: none;
     position: absolute;
@@ -64,11 +65,13 @@ header {
 }
 
 .dropdown-list-container a {
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 15px;
+    line-height: 60px;
     text-decoration: none;
     color: white;
     display: block;
+    opacity: 1;
+    font-family: "augustus";
 }
 
 .dropdown-list-container a:hover {
@@ -617,6 +620,9 @@ footer .container {
         display: flex;
         justify-content: flex-end;
     }
+    .main-section {
+        height: 600px;
+    }
     nav {
         display: none;
     }
@@ -636,6 +642,7 @@ footer .container {
     .music-travel p {
         width: 60%;
         line-height: 30px;
+        padding-top: 50px;
     }
     .box {
         font-size: 15px;
