@@ -265,13 +265,8 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 100px;
-    margin-bottom: 200px;
-}
-
-.aboutUs div {
-    display: flex;
-    flex-direction: row;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .aboutUs h2 {
@@ -287,10 +282,32 @@ h3 {
 
 .we-are {
     width: 30%;
+    display: flex;
+    flex-direction: row;
 }
 
 .what-we-do {
     width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutUs2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutUs2 h2 {
+    color: #230c01;
+    font-size: 50px;
+    width: 200px;
+}
+
+.aboutUs2 p {
+    font-size: 20px;
+    padding-left: 50px;
+    color: #230c01;
+    width: 400px;
 }
 
 .musichall {
@@ -429,9 +446,6 @@ footer .container {
     .logo {
         width: 80px;
     }
-    .aboutUs h2 {
-        font-size: 35px;
-    }
     .footer {
         margin: auto;
     }
@@ -459,9 +473,6 @@ footer .container {
     }
     .logo {
         width: 80px;
-    }
-    .aboutUs h2 {
-        font-size: 35px;
     }
     .footer {
         margin: auto;
@@ -523,54 +534,59 @@ footer .container {
     .aboutUs {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    .aboutUs h2 {
-        font-size: 30px;
-    }
-    .aboutUs {
-        display: flex;
-        flex-direction: column;
-        height: 500px;
+        margin-top: 150px;
+        margin-bottom: 0;
     }
     .we-are {
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        margin-bottom: 50px;
     }
     .we-are h2 {
-        width: 30%;
+        width: 15%;
+        font-size: 35px;
+        margin-bottom: 20px;
     }
     .what-we-do {
+        display: flex;
+        flex-direction: column;
         width: 100%;
     }
     .what-we-do h2 {
-        width: 50%;
+        width: 20%;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .what-we-do-text {
+        display: flex;
+        justify-content: end;
+    }
+    .aboutUs2 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+    .aboutUs2 h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .aboutUs2 p {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 50px;
     }
     .contacts {
         display: block;
     }
+    .musichall {
+        margin-top: 0;
+    }
     .worktime {
         margin-bottom: 60px;
     }
-    .we-are {
-        flex-wrap: wrap;
-    }
-    .we-are h2 {
-        width: 30%;
-    }
-    .what-we-do {
-        flex-wrap: wrap;
-    }
-    .what-we-do h2 {
-        width: 50%;
-    }
-    .aboutUs h2 {
-        font-size: 35px;
-    }
     .aboutUs p {
         padding-left: 0;
+        margin-bottom: 50px;
     }
     .worktime-button {
         background-color: white;
@@ -582,9 +598,6 @@ footer .container {
         height: 40px;
         border: 2px black solid;
         transition: 1s;
-    }
-    h5 {
-        margin-bottom: 30px;
     }
     .footer-info {
         width: 60%;
@@ -637,14 +650,6 @@ footer .container {
     .box img {
         width: 300px;
     }
-    .aboutUs {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        margin-top: 100px;
-        margin-bottom: 200px;
-    }
     .logo {
         width: 50px;
     }
@@ -660,6 +665,9 @@ footer .container {
         font-size: 15px;
         margin-bottom: 40px;
         margin-top: 10px;
+    }
+    .what-we-do h2 {
+        width: 30%;
     }
     .card-about a {
         text-decoration: underline;
@@ -717,10 +725,6 @@ footer .container {
         padding-left: 5px;
         font-size: 25px;
     }
-    .hook {
-        display: flex;
-        font-size: x-large;
-    }
     .box {
         font-size: 15px;
         display: flex;
@@ -740,18 +744,6 @@ footer .container {
     .logo {
         width: 50px;
     }
-    .we-are {
-        flex-wrap: wrap;
-    }
-    .what-we-do {
-        flex-wrap: wrap;
-    }
-    .aboutUs h2 {
-        font-size: 35px;
-    }
-    .aboutUs p {
-        padding: 0;
-    }
     .box div {
         margin-left: 0;
         margin-bottom: 0;
@@ -761,6 +753,9 @@ footer .container {
     }
     .logoinfo img {
         width: 100px;
+    }
+    .what-we-do h2 {
+        width: 40%;
     }
     h4 {
         font-size: 25px;
@@ -795,9 +790,6 @@ footer .container {
         height: 40px;
         border: 2px black solid;
         transition: 1s;
-    }
-    .we-are {
-        margin-top: 50px;
     }
     footer {
         width: 100%;
