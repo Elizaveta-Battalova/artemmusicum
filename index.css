@@ -34,6 +34,27 @@ header {
     z-index: 99;
 }
 
+.container {
+    width: 90%;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+    width: 30%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .dropdown {
     display: none;
 }
@@ -79,27 +100,6 @@ header {
 
 .show {
     display: block;
-}
-
-.container {
-    width: 90%;
-    margin: auto;
-    font-family: 'Quicksand', sans-serif;
-}
-
-nav {
-    width: 30%;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.nav-block {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .logo-block {
