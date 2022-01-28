@@ -188,11 +188,20 @@ main {
     padding-top: 50px;
 }
 
-.box img {
+.posters-img {
     width: 400px;
 }
 
-.box div {
+.pushkin-card-img {
+    width: 150px;
+}
+
+.pushkin-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-div {
     margin-left: 40px;
     color: #230c01;
     display: flex;
@@ -299,11 +308,26 @@ h3 {
     flex-direction: row;
 }
 
+.aboutUs3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 90%;
+    margin-top: 100px;
+}
+
 .aboutUs2 h2 {
     color: #230c01;
     font-size: 50px;
     width: 200px;
     margin-right: 20px;
+    transition: 1s;
+}
+
+.aboutUs3 h2 {
+    color: #230c01;
+    font-size: 50px;
+    width: 200px;
 }
 
 .aboutUs2 p {
@@ -439,9 +463,8 @@ footer .container {
     .posters {
         width: 100%;
     }
-    .box div {
+    .box-div {
         margin-left: 40;
-        height: 300px;
     }
     .music-travel h2 {
         font-size: 30px;
@@ -519,10 +542,13 @@ footer .container {
         align-items: center;
         text-align: center;
     }
-    .box div {
+    .box-div {
         margin-left: 0;
-        height: 300px;
         align-items: center;
+        margin-bottom: 50px;
+    }
+    .box-div p {
+        padding: 15px;
     }
     .box button {
         width: 200px;
@@ -531,8 +557,12 @@ footer .container {
         transition: 1s;
         font-weight: 400;
         font-size: 20px;
-        margin-bottom: 80px;
         margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .pushkin-button {
+        display: flex;
+        flex-direction: column;
     }
     .aboutUs {
         display: flex;
@@ -567,7 +597,7 @@ footer .container {
     .aboutUs2 {
         display: flex;
         flex-direction: column;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
     }
     .aboutUs2 h2 {
         font-size: 35px;
@@ -577,6 +607,16 @@ footer .container {
         width: 100%;
         padding-left: 0;
         margin-bottom: 50px;
+    }
+    .aboutUs3 {
+        margin-bottom: 100px;
+        width: 95%;
+    }
+    .aboutUs3 h2 {
+        font-size: 35px;
+    }
+    .aboutUs3 img {
+        width: 200px;
     }
     .contacts {
         display: block;
@@ -649,11 +689,18 @@ footer .container {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    .box div {
+    .box-div {
         margin-left: 0;
         margin-bottom: 100px;
     }
-    .box img {
+    .pushkin-button {
+        display: flex;
+        flex-direction: column;
+    }
+    .pushkin-card-img {
+        width: 150px;
+    }
+    .posters-img {
         width: 300px;
     }
     .logo {
@@ -661,16 +708,6 @@ footer .container {
     }
     .box div {
         margin-left: 0;
-    }
-    .box button {
-        width: 200px;
-        height: 50px;
-        border: 1px black solid;
-        transition: 1s;
-        font-weight: 400;
-        font-size: 15px;
-        margin-bottom: 0;
-        margin-top: 10px;
     }
     .what-we-do h2 {
         width: 30%;
@@ -714,9 +751,6 @@ footer .container {
     .logoinfo {
         margin-bottom: 100px;
     }
-    .box img {
-        width: 330px;
-    }
     .footer {
         margin: auto;
     }
@@ -749,7 +783,7 @@ footer .container {
     .logo {
         width: 50px;
     }
-    .box div {
+    .box-div {
         margin-left: 0;
         margin-bottom: 0;
     }
@@ -761,6 +795,12 @@ footer .container {
     }
     .what-we-do h2 {
         width: 50%;
+    }
+    .aboutUs3 img {
+        width: 150px;
+    }
+    .aboutUs3 h2 {
+        font-size: 30px;
     }
     h4 {
         font-size: 25px;

@@ -111,19 +111,27 @@ h3 {
     font-size: 30px;
 }
 
-.card-button {
+.card button {
     background-color: white;
+    color: #230c01;
     font-weight: bold;
     width: 150px;
     height: 40px;
     border: 2px black solid;
+    font-size: 15px;
+    font-weight: 400;
     transition: 1s;
-    margin-top: 30px;
+    cursor: pointer;
 }
 
-.card-button:hover {
+.card button:hover {
     border: 2px rgb(197, 0, 0) solid;
     background-color: rgb(197, 0, 0);
+}
+
+.card button a {
+    color: black;
+    text-decoration: none;
 }
 
 .back-button {
