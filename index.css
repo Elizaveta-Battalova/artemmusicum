@@ -597,9 +597,12 @@ footer .container {
     .aboutUs2 {
         display: flex;
         flex-direction: column;
-        margin-bottom: 100px;
     }
     .aboutUs2 h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .aboutUs3 h2 {
         font-size: 35px;
         margin-bottom: 20px;
     }
@@ -611,12 +614,12 @@ footer .container {
     .aboutUs3 {
         margin-bottom: 100px;
         width: 95%;
-    }
-    .aboutUs3 h2 {
-        font-size: 35px;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        margin-top: 0;
     }
     .aboutUs3 img {
-        width: 200px;
+        width: 300px;
     }
     .contacts {
         display: block;
@@ -698,7 +701,7 @@ footer .container {
         flex-direction: column;
     }
     .pushkin-card-img {
-        width: 150px;
+        width: 120px;
     }
     .posters-img {
         width: 300px;
@@ -796,11 +799,8 @@ footer .container {
     .what-we-do h2 {
         width: 50%;
     }
-    .aboutUs3 img {
-        width: 150px;
-    }
-    .aboutUs3 h2 {
-        font-size: 30px;
+    .pushkin-card-img {
+        width: 100px;
     }
     h4 {
         font-size: 25px;
