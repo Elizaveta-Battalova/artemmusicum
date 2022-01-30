@@ -14,6 +14,11 @@
 </head>
 
 <body>
+    <div id="preloader">
+        <div class="log"><img src="./images/favicon.ico"></div>
+        <div class="loader">ARTEMUSICUM</div>
+    </div>
+
     <div class="wrapper">
         <section class="main-section">
             <header>
@@ -178,6 +183,12 @@
             </div>
         </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script>
+        jQuery(window).load(function() {
+            $("#preloader").fadeOut("slow");
+        });
+    </script>
     <script src="index.js"></script>
 </body>
 
