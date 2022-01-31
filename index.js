@@ -1,3 +1,7 @@
+jQuery(window).load(function() {
+    $('#preloader').delay(2000).fadeOut(3000);
+});
+
 const dropdownListContainer = document.querySelector(
     ".dropdown-list-container"
 );
