@@ -549,6 +549,15 @@ footer .container {
     display: block;
 }
 
+.social-media {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media img {
+    width: 40px;
+}
+
 @media(max-width: 1400px) {
     .nav-block {
         height: 80px;

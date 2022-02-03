@@ -1,6 +1,6 @@
-jQuery(window).load(function() {
-    $('#preloader').delay(1000).fadeOut(3000);
-});
+// jQuery(window).load(function() {
+//     $('#preloader').delay(1000).fadeOut(3000);
+// });
 
 const dropdownListContainer = document.querySelector(
     ".dropdown-list-container"
