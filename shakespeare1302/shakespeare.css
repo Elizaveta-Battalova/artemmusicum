@@ -74,11 +74,11 @@ h1 {
     padding-top: 150px;
 }
 
-.card div {
+.card-info {
     margin-left: 40px;
 }
 
-.card img {
+.poster {
     margin-bottom: 40px;
     width: 400px;
 }
@@ -86,6 +86,20 @@ h1 {
 .card p {
     margin-bottom: 15px;
     font-size: 20px;
+}
+
+.instagram {
+    margin-top: 20px;
+    width: 60%;
+}
+
+.instagram ul {
+    margin-top: 20px;
+}
+
+.instagram li {
+    font-size: 15px;
+    color: red;
 }
 
 .date {
@@ -246,9 +260,12 @@ footer .container {
     .ensemble-logo {
         width: 200px;
     }
-    .card img {
+    .poster {
         margin-bottom: 40px;
         width: 350px;
+    }
+    .instagram {
+        width: 100%;
     }
     nav a {
         display: none;
@@ -287,7 +304,7 @@ footer .container {
         padding-top: 150px;
         text-align: center;
     }
-    .card div {
+    .card-info {
         margin-left: 0;
     }
     .card-button {
