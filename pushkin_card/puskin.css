@@ -135,6 +135,15 @@ footer .container {
     display: block;
 }
 
+.social-media {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media img {
+    width: 40px;
+}
+
 @media(max-width:1400px) {
     .container {
         width: 90%;

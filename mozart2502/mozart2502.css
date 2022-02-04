@@ -37,7 +37,7 @@ header {
 }
 
 .container {
-    width: 1400px;
+    width: 90%;
     margin: auto;
     font-family: 'Quicksand', sans-serif;
 }
@@ -226,7 +226,7 @@ footer .container {
     display: block;
 }
 
-@media(max-width:1400px) {
+@media(max-width:1200px) {
     .container {
         width: 90%;
         margin: auto;
