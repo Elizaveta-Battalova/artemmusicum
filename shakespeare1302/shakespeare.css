@@ -1,238 +1,374 @@
-    * {
-        margin: 0;
-        padding: 0;
-        -webkit-appearance: none;
-    }
-    
-    html,
-    body {
-        height: 100%;
-    }
-    
-    .wrapper {
-        min-height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    @font-face {
-        font-family: "augustus";
-        src: url("../fonts/augustus.otf");
-    }
-    
-    span {
-        font-family: "augustus";
-    }
-    
-    main {
-        flex: 1 1 auto;
-    }
-    
-    header {
-        background-color: #230c01;
-        position: fixed;
-        width: 100%;
-        opacity: .95;
-        margin-bottom: 300px;
-    }
-    
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-appearance: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: "augustus";
+    src: url("../fonts/augustus.otf");
+}
+
+span {
+    font-family: "augustus";
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+header {
+    background-color: #230c01;
+    position: fixed;
+    width: 100%;
+    opacity: .95;
+    margin-bottom: 300px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logo-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-text {
+    text-align: center;
+}
+
+.logo {
+    width: 110px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 9px;
+    font-family: "augustus";
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    margin-bottom: 30px;
+}
+
+.card-info {
+    margin-left: 40px;
+}
+
+.poster {
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.card p {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.instagram {
+    margin-top: 20px;
+    width: 60%;
+}
+
+.instagram ul {
+    margin-top: 20px;
+}
+
+.instagram li {
+    font-size: 15px;
+    color: black;
+    list-style-type: none;
+}
+
+.instagram div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.instagram div p {
+    margin-bottom: 0;
+}
+
+.hours {
+    display: flex;
+    flex-direction: row;
+}
+
+.hours li {
+    font-size: 15px;
+    color: black;
+    width: 60%;
+    list-style-type: none;
+}
+
+ol {
+    font-size: 15px;
+}
+
+.hours ul {
+    width: 30%;
+    text-align: center;
+}
+
+.date {
+    font-weight: bold;
+    color: red;
+}
+
+.card-about {
+    font-weight: bold;
+}
+
+.card-about a {
+    color: black;
+    transition: 1s;
+}
+
+.card-about a:hover {
+    color: red;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.card button {
+    background-color: white;
+    color: #230c01;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border: 2px black solid;
+    font-size: 15px;
+    font-weight: 400;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.card button:hover {
+    border: 2px rgb(197, 0, 0) solid;
+    background-color: rgb(197, 0, 0);
+}
+
+.card button a {
+    color: black;
+    text-decoration: none;
+}
+
+.back-button {
+    height: 20px;
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+
+.back-button-adaptive {
+    display: none;
+}
+
+.back-button:hover {
+    color: red;
+}
+
+.programm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.info {
+    width: 40%;
+}
+
+.info p {
+    font-size: 19px;
+}
+
+ul p {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+h4 {
+    padding-bottom: 15px;
+}
+
+.about-mozart {
+    width: 30%;
+}
+
+.about-mozart p {
+    padding-bottom: 15px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    padding-bottom: 10px;
+    font-size: 19px;
+}
+
+.musicians p {
+    font-size: 20px;
+}
+
+.musicians a {
+    color: black;
+}
+
+footer {
+    width: 100%;
+    background-color: #230c01;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: #230c01;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.footer-info {
+    color: white;
+    display: block;
+}
+
+@media(max-width:1200px) {
     .container {
-        width: 1400px;
+        width: 90%;
         margin: auto;
-        font-family: 'Quicksand', sans-serif;
     }
-    
-    .logo-block {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    li {
+        list-style-type: none;
     }
-    
-    .logo-text {
-        text-align: center;
-    }
-    
-    .logo {
-        width: 110px;
-    }
-    
-    h1 {
-        color: white;
-        font-size: 50px;
+    header {
+        height: 100px;
         display: flex;
         justify-content: center;
-        font-weight: 400;
-        padding-left: 20px;
-        padding-top: 9px;
-        font-family: "augustus";
     }
-    
-    .card {
-        display: flex;
-        flex-direction: row;
-        padding-top: 150px;
-        margin-bottom: 30px;
+    .ensemble-logo {
+        width: 200px;
     }
-    
-    .card-info {
-        margin-left: 40px;
-    }
-    
     .poster {
         margin-bottom: 40px;
-        width: 400px;
+        width: 350px;
     }
-    
-    .card p {
-        margin-bottom: 15px;
-        font-size: 20px;
-    }
-    
     .instagram {
-        margin-top: 20px;
-        width: 60%;
+        width: 100%;
     }
-    
-    .instagram ul {
-        margin-top: 20px;
+    .hours {
+        width: 100%;
+        flex-direction: column;
     }
-    
-    .instagram li {
-        font-size: 15px;
-        color: black;
+    .hours li {
+        width: 100%;
     }
-    
-    .instagram div {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    .hours ul {
+        width: 100%;
     }
-    
-    .instagram div p {
-        margin-bottom: 0;
+    nav a {
+        display: none;
     }
-    
-    .date {
-        font-weight: bold;
-        color: red;
+    .back {
+        padding-top: 100px;
     }
-    
-    .card-about {
-        font-weight: bold;
+    .logo {
+        width: 50px;
     }
-    
-    .card-about a {
-        color: black;
-        transition: 1s;
-    }
-    
-    .card-about a:hover {
-        color: red;
-    }
-    
-    h3 {
-        margin-bottom: 20px;
+    h1 {
         font-size: 30px;
+        padding-left: 10px;
     }
-    
-    .card button {
-        background-color: white;
-        color: #230c01;
-        font-weight: bold;
-        width: 150px;
-        height: 40px;
-        border: 2px black solid;
-        font-size: 15px;
-        font-weight: 400;
-        transition: 1s;
-        cursor: pointer;
-    }
-    
-    .card button:hover {
-        border: 2px rgb(197, 0, 0) solid;
-        background-color: rgb(197, 0, 0);
-    }
-    
-    .card button a {
-        color: black;
-        text-decoration: none;
-    }
-    
     .back-button {
+        display: none;
+    }
+    .back-button-adaptive {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+        margin-right: 25px;
+    }
+    .back-button-adaptive a {
         height: 20px;
         text-decoration: none;
         color: black;
         transition: .5s;
     }
-    
-    .back-button-adaptive {
-        display: none;
-    }
-    
-    .back-button:hover {
-        color: red;
-    }
-    
-    .programm {
+    .card {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-bottom: 40px;
-    }
-    
-    .info {
-        width: 40%;
-    }
-    
-    .info p {
-        font-size: 19px;
-    }
-    
-    ul p {
-        font-weight: 600;
-        margin-bottom: 20px;
-        font-size: 15px;
-    }
-    
-    h4 {
-        padding-bottom: 15px;
-    }
-    
-    .about-mozart {
-        width: 30%;
-    }
-    
-    .about-mozart p {
-        padding-bottom: 15px;
-        font-style: italic;
-        margin-bottom: 20px;
-    }
-    
-    h5 {
-        font-style: italic;
-        font-weight: 400;
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-    
-    li {
-        padding-bottom: 10px;
-        font-size: 19px;
-    }
-    
-    ol {
-        width: 50%;
+        flex-direction: column;
+        padding-top: 150px;
         text-align: center;
     }
-    
-    .musicians p {
-        font-size: 20px;
+    .card-info {
+        margin-left: 0;
     }
-    
-    .musicians a {
-        color: black;
+    .card-button {
+        margin-bottom: 30px;
     }
-    
+    .programm {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .instagram div {
+        justify-content: center;
+    }
+    .about-mozart {
+        width: 100%;
+    }
+    h4 {
+        font-size: x-large;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .info {
+        width: 100%;
+    }
     footer {
         width: 100%;
         background-color: #230c01;
@@ -241,119 +377,7 @@
         flex-direction: column;
         padding-bottom: 20px;
     }
-    
-    footer {
-        background-color: #230c01;
+    footer p {
+        font-size: 10px;
     }
-    
-    footer .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        height: 80px;
-    }
-    
-    .footer-info {
-        color: white;
-        display: block;
-    }
-    
-    @media(max-width:1200px) {
-        .container {
-            width: 90%;
-            margin: auto;
-        }
-        li {
-            list-style-type: none;
-        }
-        header {
-            height: 100px;
-            display: flex;
-            justify-content: center;
-        }
-        .ensemble-logo {
-            width: 200px;
-        }
-        .poster {
-            margin-bottom: 40px;
-            width: 350px;
-        }
-        .instagram {
-            width: 100%;
-        }
-        ol {
-            width: 100%;
-        }
-        nav a {
-            display: none;
-        }
-        .back {
-            padding-top: 100px;
-        }
-        .logo {
-            width: 50px;
-        }
-        h1 {
-            font-size: 40px;
-            padding-left: 10px;
-        }
-        .back-button {
-            display: none;
-        }
-        .back-button-adaptive {
-            display: flex;
-            justify-content: flex-end;
-            margin-bottom: 20px;
-            margin-right: 25px;
-        }
-        .back-button-adaptive a {
-            height: 20px;
-            text-decoration: none;
-            color: black;
-            transition: .5s;
-        }
-        .card {
-            display: flex;
-            flex-direction: column;
-            padding-top: 150px;
-            text-align: center;
-        }
-        .card-info {
-            margin-left: 0;
-        }
-        .card-button {
-            margin-bottom: 30px;
-        }
-        .programm {
-            display: flex;
-            flex-direction: column;
-            padding-bottom: 40px;
-            text-align: center;
-        }
-        .instagram div {
-            justify-content: center;
-        }
-        .about-mozart {
-            width: 100%;
-        }
-        h4 {
-            font-size: x-large;
-            margin-bottom: 20px;
-            margin-top: 20px;
-        }
-        .info {
-            width: 100%;
-        }
-        footer {
-            width: 100%;
-            background-color: #230c01;
-            color: white;
-            display: flex;
-            flex-direction: column;
-            padding-bottom: 20px;
-        }
-        footer p {
-            font-size: 10px;
-        }
-    }
+}
