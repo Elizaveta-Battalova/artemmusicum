@@ -2,6 +2,18 @@
 <html lang="ru">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'MEASUREMENT_ID');
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,11 +21,44 @@
     <meta http-equiv="no-cache">
     <meta http-equiv="Expires" content="-1">
     <meta http-equiv="Cache-Control" content="no-cache">
-    <meta name="description" content="концерты классической музыки artemusicum">
+    <meta name="description" content="Концертно-продюсерский центр, занимающийся организацией концертов классической музыки.">
     <meta name="Keywords" content="концерты классической музыки, музыка, классическая музыка, концерт, artemusicum.">
     <link rel="stylesheet" href="index.css" />
     <link type="image/x-icon" href="./images/favicon.ico" rel="shortcut icon">
     <link type="Image/x-icon" href="./images/favicon.ico" rel="icon">
+
+    <meta name="facebook-domain-verification" content="ulzwfus4i4c6caglqkk7t6nhiefo27" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- Meta Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1945149505656429');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1945149505656429&ev=PageView&noscript=1"
+/></noscript>
+    <!-- End Meta Pixel Code -->
     <script type="text/javascript">
         (function(m, e, t, r, i, k, a) {
             m[i] = m[i] || function() {
@@ -23,22 +68,15 @@
             k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
         })
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
         ym(87347328, "init", {
             clickmap: true,
             trackLinks: true,
             accurateTrackBounce: true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/87347328" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-</head>
-
-<body>
-    <!-- <div id="preloader">
-        <div class="log"><img src="./images/favicon.ico"></div>
-        <div class="loader">ARTEMUSICUM</div>
-    </div> -->
-
+    <noscript>
+    <div><img src="https://mc.yandex.ru/watch/87347328" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
     <div class="wrapper">
         <section class="main-section">
             <header>
@@ -52,6 +90,7 @@
                         <nav>
                             <a href="#hook">афиша</a>
                             <a href="#about_us">о нас</a>
+                            <a href="./gallery/galleries-page/galleries-page.html">галерея</a>
                             <a href="#contacts">контакты</a>
                             <a href="mailto:support@artemusicum.com?subject=Обращение">помощь</a>
                         </nav>
@@ -59,9 +98,10 @@
                         <div class="dropdown">
                             <div class='dropdown-btn'></div>
                             <div class='dropdown-list-container'>
-                                <a href="#hook">афиша</a>
-                                <a href="#about_us">о нас</a>
-                                <a href="#contacts">контакты</a>
+                                <a class="scroll" href="#hook">афиша</a>
+                                <a class="scroll" href="#about_us">о нас</a>
+                                <a href="./gallery/galleries-page/galleries-page.html">галерея</a>
+                                <a class="scroll" href="#contacts">контакты</a>
                                 <a href="mailto:support@artemusicum.com?subject=Обращение">помощь</a>
                             </div>
                         </div>
@@ -69,36 +109,20 @@
                 </div>
             </header>
             <div class="music-travel">
-                <h2>Ваше музыкальное путешествие</h2>
-                <h2>начинается здесь</h2>
+                <h2>Ваше музыкальное путешествие <br> начинается здесь</h2>
                 <p id="mozart">
                     «Artemusicum» - концертно-продюсерский центр широкого спектра в области музыкальной культуры и искусства.
                 </p>
+                <div class="hook1" id="hook"></div>
             </div>
         </section>
         <main>
             <div class="container">
-                <div id="hook" class="announcement">анонс</div>
-
-                <div class="box">
-                    <a class="mozart-img" href="./shakespeare1302/shakespeare.html"><img class="posters-img" src="./images/shakespeare.jpg" alt="shakespeare"></a>
-
-                    <div class="box-div">
-                        <p class="date">13 февраля | 19:00</p>
-                        <p>Москва | ДК Рассвет</p>
-                        <a class="programm-name" href="./mozart2502/mozart2502.html">Шекспир. Ромео и Джульетта</a>
-                        <p class="card-about">
-                            <a href="./mozart2502/simpleMusicAnsamble.html">Simple music ensemble</a>
-                        </p>
-
-                        <div class="pushkin-button">
-                            <button><a href="https://widget.afisha.yandex.ru/w/sessions/ticketsteam-2278@6465816?clientKey=07e9e8a0-2dfb-45e1-a729-93032543311f&regionId=213">КУПИТЬ БИЛЕТЫ</a></button>
-                            <a href="./pushkin_card/pushin.html"> <img class="pushkin-card-img" src="./images/pushkin_card_mini.jpg" alt="pushkin_card"></a>
-                        </div>
-
-                    </div>
+                <div class="announcement">анонс</div>
+                <div class="message">
+                    <p>Уважаемые зрители!<br>Концерт, 19 марта 2022 года, "Вселенная. Равель | Шуман" с участием Эвелины Березовской, по техническим причинам перенесён на другую дату. Приносим вам свои искренние извинения! Программа в Московском планетарии
+                        на 19 марта изменена. Следите за нашим анонсом. Всем зрителям, кто приобрёл билеты на данный концерт, просьба обратиться в билетный стол! Мы совершим перенос ваших билетов или будет оформлен полный возврат средств.<br>Ваш ARTEMUSICUM!</p>
                 </div>
-
                 <div class="box">
                     <a class="mozart-img" href="./mozart2502/mozart2502.html"><img class="posters-img" src="./images/poster1.jpg" alt="Mozart"></a>
                     <div class="box-div">
@@ -110,7 +134,7 @@
                         </p>
                         <div class="pushkin-button">
                             <button><a href="https://widget.afisha.yandex.ru/w/sessions/ticketsteam-2282@6265522?clientKey=ac32997f-5dd4-4585-82c6-3954263f8027&regionId=213">КУПИТЬ БИЛЕТЫ</a></button>
-                            <a href="./pushkin_card/pushin.html"> <img class="pushkin-card-img" src="./images/pushkin_card_mini.jpg" alt="pushkin_card"></a>
+                            <a href="./pushkin-card/pushkin.html"> <img class="pushkin-card-img" src="./images/pushkin-card-mini.jpg" alt="pushkin-card"></a>
                         </div>
                     </div>
                 </div>
@@ -120,14 +144,50 @@
                     <div class="box-div">
                         <p class="date">28 февраля | 19:00</p>
                         <p>Москва | Соборная палата</p>
-                        <a class="programm-name" href="./shakespeare1302/shakespeare.html">Эпоха БАРОККО. Европа |Россия</a>
+                        <a class="programm-name" href="./shakespeare1302/shakespeare.html">Эпоха БАРОККО. Европа | Россия</a>
                         <p class="card-about">
                             <a href="./intrada/intrada.html">INTRADA ensemble</a>
                         </p>
                         <div class="pushkin-button">
                             <button><a href="https://widget.afisha.yandex.ru/w/sessions/ticketsteam-2282@6479852?clientKey=ac32997f-5dd4-4585-82c6-3954263f8027&regionId=213">КУПИТЬ БИЛЕТЫ</a></button>
-                            <a href="./pushkin_card/pushin.html"> <img class="pushkin-card-img" src="./images/pushkin_card_mini.jpg" alt="pushkin_card"></a>
+                            <a href="./pushkin-card/pushkin.html"> <img class="pushkin-card-img" src="./images/pushkin-card-mini.jpg" alt="pushkin-card"></a>
                         </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <a class="mozart-img" href="./shakespeare1302/shakespeare.html"><img class="posters-img" src="./images/shakespeare.jpg" alt="shakespeare"></a>
+
+                    <div class="box-div">
+                        <p class="date">12 марта | 19:00</p>
+                        <p>Москва | ДК Рассвет</p>
+                        <a class="programm-name" href="./shakespeare1302/shakespeare.html">Шекспир. Ромео и Джульетта</a>
+                        <p class="card-about">
+                            <a href="./mozart2502/simpleMusicAnsamble.html">Simple music ensemble</a>
+                        </p>
+
+                        <div class="pushkin-button">
+                            <button><a href="https://widget.afisha.yandex.ru/w/sessions/ticketsteam-2278@6847590?clientKey=07e9e8a0-2dfb-45e1-a729-93032543311f&regionId=213">КУПИТЬ БИЛЕТЫ</a></button>
+                            <a href="./pushkin-card/pushkin.html"> <img class="pushkin-card-img" src="./images/pushkin-card-mini.jpg" alt="pushkin-card"></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="box">
+                    <a class="mozart-img" href="./berezovskaya/universe.html"><img class="posters-img" src="./images/universe.jpg" alt="березовская"></a>
+
+                    <div class="box-div">
+                        <p class="date">19 марта | 20:00</p>
+                        <p>Москва | Московский планетарий</p>
+                        <h3 class="card-about"><a href="./berezovskaya/berezovskaya.html">Эвелина БЕРЕЗОВСКАЯ</a></h3>
+                        <a class="programm-name" href="./berezovskaya/universe.html">«Вселенная»</a>
+                        <p>Равель | Шуман</p>
+                        <div class="pushkin-button">
+                            <button><a href="https://widget.afisha.yandex.ru/w/sessions/ticketsteam-2282@6741646?clientKey=ac32997f-5dd4-4585-82c6-3954263f8027&regionId=213">КУПИТЬ БИЛЕТЫ</a></button>
+                            <!-- <a href="./pushkin-card/pushkin.html"> <img class="pushkin-card-img" src="./images/pushkin-card-mini.jpg" alt="pushkin-card"></a> -->
+                        </div>
+
                     </div>
                 </div>
 
@@ -142,10 +202,29 @@
                         </p>
                         <div class="pushkin-button">
                             <button><a href="https://widget.afisha.yandex.ru/w/sessions/ticketsteam-2282@6741173?clientKey=ac32997f-5dd4-4585-82c6-3954263f8027&regionId=213">КУПИТЬ БИЛЕТЫ</a></button>
-                            <a href="./pushkin_card/pushin.html"> <img class="pushkin-card-img" src="./images/pushkin_card_mini.jpg" alt="pushkin_card"></a>
+                            <!--<a href="./pushkin-card/pushkin.html"> <img class="pushkin-card-img" src="./images/pushkin-card-mini.jpg" alt="pushkin-card"></a>-->
                         </div>
                     </div>
                 </div>
+
+                <div class="box">
+                    <a class="mozart-img" href="./galaxy/galaxy.html"><img class="posters-img" src="./images/galaxy.jpeg" alt="galaxy"></a>
+                    <div class="box-div">
+                        <p class="date">19 марта 20:00</p>
+                        <p>Москва | Московский планетарий</p>
+                        <a class="programm-name" href="./galaxy/galaxy.html">ГАЛКАТИКА. Дж.УИЛЬЯМС. Звездные войны</a>
+                        <p class="card-about">
+                            <a href="./mozart2502/simpleMusicAnsamble.html">Simple music ensemble</a>
+                        </p>
+                        <div class="pushkin-button">
+                            <button><a href="https://widget.afisha.yandex.ru/w/sessions/ticketsteam-2282@6741646?clientKey=ac32997f-5dd4-4585-82c6-3954263f8027&regionId=213">КУПИТЬ БИЛЕТЫ</a></button>
+                            <!--<a href="./pushkin-card/pushkin.html"> <img class="pushkin-card-img" src="./images/pushkin-card-mini.jpg" alt="pushkin-card"></a>-->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="hook2" id="about_us"></div>
 
                 <div class="aboutUs">
                     <div class="we-are">
@@ -170,7 +249,7 @@
 
                 <div class="aboutUs3">
                     <h2>МЫ УЧАСТНИКИ ПРОГРАММЫ!</h2>
-                    <a href="./pushkin_card/pushin.html"><img src="./images/pushkin_card.jpg" alt="pushkin"></a>
+                    <a href="./pushkin-card/pushkin.html"><img src="./images/pushkin-card.jpg" alt="pushkin"></a>
                 </div>
             </div>
 
@@ -203,6 +282,17 @@
                         <a class="worktime-button" href="mailto:help.artemusicum@gmail.com?subject=Обращение">НАПИШИТЕ НАМ</a>
                     </div>
                 </div>
+
+                <div class="form">
+                    <div class="ar_form">
+                        <p>Подпишитесь на наши обновления</p>
+                        <form action="send.php" method="post">
+                            Ваше имя <input type="text" name="first_name"><br> Email: <input type="text" name="email" required placeholder="example@gmail.com"><br>
+                            <input type="submit" name="submit" value="Отправить">
+                        </form>
+                    </div>
+                    <a href="./confidence/confidence.html">*политика конфиденциальности</a>
+                </div>
             </div>
         </main>
 
@@ -224,7 +314,6 @@
             </div>
         </footer>
     </div>
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="index.js"></script>
 </body>
 

@@ -88,43 +88,6 @@ h1 {
     font-size: 20px;
 }
 
-.instagram {
-    margin-top: 20px;
-    width: 60%;
-}
-
-.instagram li {
-    font-size: 15px;
-    color: black;
-    list-style-type: none;
-}
-
-.instagram div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.instagram div p {
-    margin-bottom: 0;
-}
-
-.hours {
-    display: flex;
-    flex-direction: row;
-}
-
-.hours li {
-    font-size: 15px;
-    color: black;
-    width: 60%;
-    list-style-type: none;
-}
-
-ol {
-    font-size: 15px;
-}
-
 .date {
     font-weight: bold;
     color: red;
@@ -137,6 +100,7 @@ ol {
 .card-about a {
     color: black;
     transition: 1s;
+    text-decoration: none;
 }
 
 .card-about a:hover {
@@ -275,6 +239,16 @@ footer .container {
     display: block;
 }
 
+.social-media {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media img {
+    width: 40px;
+    margin-left: 10px;
+}
+
 @media(max-width:1200px) {
     .container {
         width: 90%;
@@ -291,16 +265,6 @@ footer .container {
     .poster {
         margin-bottom: 40px;
         width: 300px;
-    }
-    .instagram {
-        width: 100%;
-    }
-    .hours {
-        width: 100%;
-        flex-direction: column;
-    }
-    .hours li {
-        width: 100%;
     }
     nav a {
         display: none;
@@ -348,14 +312,12 @@ footer .container {
         padding-bottom: 40px;
         text-align: center;
     }
-    .instagram div {
-        justify-content: center;
-    }
     .about-mozart {
         width: 100%;
     }
     .about-mozart li {
         list-style-position: inside;
+        margin-bottom: 20px;
     }
     .musicians {
         width: 100%;
