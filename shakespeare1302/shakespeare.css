@@ -343,8 +343,6 @@ footer .container {
         margin-bottom: 30px;
     }
     video {
-        width: 330px;
-        height: 200px;
         margin-bottom: 20px;
     }
     .programm {
@@ -389,5 +387,13 @@ footer .container {
     }
     footer p {
         font-size: 10px;
+    }
+}
+
+@media(max-width:768px) {
+    video {
+        width: 330px;
+        height: 200px;
+        margin-bottom: 20px;
     }
 }
