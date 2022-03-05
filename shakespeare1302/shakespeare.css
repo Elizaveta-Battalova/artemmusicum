@@ -63,7 +63,6 @@ h1 {
     justify-content: center;
     font-weight: 400;
     padding-left: 20px;
-    padding-top: 9px;
     font-family: "augustus";
 }
 
@@ -78,9 +77,9 @@ h1 {
     margin-left: 40px;
 }
 
-.poster {
-    margin-bottom: 40px;
-    width: 400px;
+video {
+    width: 530px;
+    height: 300px;
 }
 
 .card p {
@@ -335,12 +334,16 @@ footer .container {
         flex-direction: column;
         padding-top: 150px;
         text-align: center;
+        align-items: center;
     }
     .card-info {
         margin-left: 0;
     }
     .card-button {
         margin-bottom: 30px;
+    }
+    video {
+        margin-bottom: 20px;
     }
     .programm {
         display: flex;

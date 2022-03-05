@@ -146,7 +146,6 @@ nav a:hover {
     background-image: url("./images/conductor.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 850px;
     background-position: center;
 }
 
@@ -549,6 +548,10 @@ footer .container {
 .social-media img {
     width: 40px;
     margin-left: 10px;
+}
+
+.social-media img:hover {
+    opacity: .7;
 }
 
 @media(max-width: 1400px) {
